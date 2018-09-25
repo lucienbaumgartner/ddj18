@@ -1,0 +1,131 @@
+---
+title: "Kursserver und Wordpress"
+author: "Lucien Baumgartner"
+date: "9/25/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Aufbau
+
+1. Umgang mit Kursserver, RStudio und Worpress; Vorstellung von Ressourcen zu R (26.9) (LB)
+2. Umgang mit verschiedenen Objekten in R und Datenbearbeitung mit tidyverse (10.10) (LB)
+3. ggplot und plotly (24.10) (LB)
+4. Loops und Funktionen; Apache Spark (7.11) (LB)
+5. Helpdesk für Blogbeitrag (21.11) (LB)
+6. Helpdesk für Blogbeitrag (5.12) (LB)
+7. Helpdesk für Blogbeitrag (19.12) (LB)
+
+## Was machen wir heute?
+
+- Kursserver
+    - Logins
+    - Umgebung
+    - Daten
+    - Datentransfer
+- Wordpress
+    - Login
+    - HTML vs. Text
+    - Ressourcen
+- Codesharing / Slack
+- Ressourcen
+
+## DISCLAIMER !!!
+
+Die folgenden Befehele verwenden OSX-Syntax; Windows-User müssen alle `/` durch `\` ersetzen.
+
+- Pfade in OSX:
+    - `~/desktop/myfolder/deployments/`
+- Pfade in WIN:
+    - `\desktop\myfolder\deployments\` (falls ihr auf `C:` seid) oder 
+    - `C:/desktop/myfolder/deployments/` 
+
+Windows-User sollten noch [PuTTY downloaden](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), für eine Erweiterung der Terminal-Umgebung.
+
+
+## Login für R-Umgebung
+
+- URL1: http://130.60.130.9:8787/auth-sign-in
+- URL2: http://pwipdm.uzh.ch:8787/auth-sign-in
+
+```{r, out.width = '400px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p1/r-web-login.png")
+```
+
+## Login via Terminal
+
+```{r, engine = 'bash', eval=F, echo=T}
+# connect to remote
+local$ ssh USERNAME@pwipdm.uzh.ch
+# enter password
+```
+
+```{r, out.width = '400px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p1/terminal-login.png")
+```
+
+Windows-User müssen ev. noch die [SSH-command enablen](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/)
+
+## Wo sind die Daten?
+- auf dem Server: /home/BENUTZERNAME/Link-st-zh
+- in der R-Umgebung:
+
+```{r, out.width = '400px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p1/r-web-data.png")
+```
+
+- Und wie kann ich die nun einlesen? In der Server-R-Umgebung:
+```{r, out.width = '400px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p1/r-web-data-readin.png")
+```
+
+## Daten lokal einlesen: Datentransfer
+- transfer data from remote to local
+```{r, engine = 'bash', eval=F, echo=T}
+# copy directory
+local$ scp -r lucbau@pwipdm.uzh.ch:/home/random-name ~/PATH/
+```
+
+- transfer data from local to remote
+```{r, engine = 'bash', eval=F, echo=T}
+# copy directory
+local$ scp -r ~/PATH/ lucbau@pwipdm.uzh.ch:/home/random-name/
+```
+
+## Wordpress
+
+- Neuen Blogbeitrag erstellen
+- HTML vs. visual
+- Dateien einfügen:
+    - Dateien hochladen und einbinden (Format über HTML)
+    - iframe
+```{r, out.width = '700px', fig.align='left'}
+knitr::include_graphics("~/ddj18/pres/img/p1/iframe.png")
+```
+    - Add-ons (meldet euch!)
+- Beiträge auf *privat* einstellen! 
+- Schaut euch die Beiträge der anderen User an und kopiert deren HTML-Elemente (Boxen, etc.)
+
+
+
+## Hilfestellung
+
+Bei Problemen oder Fragen
+
+- GOOGLE
+- Shared office im **AFL-G-261**; einfach vorbeischauen
+- Mail
+- Slack
+
+Bei Errors: 
+
+- Script
+- Paste des Errors / Console
+- Benutzt bitte https://codeshare.io/ oder Slack R-Code-Snippets
+
+Schämt euch nicht, Code Schreiben will auch gelernt sein.
+
+## Ressourcen
