@@ -3202,15 +3202,21 @@ local$ ssh USERNAME@pwipdm.uzh.ch
 <li>transfer data from remote to local</li>
 </ul>
 
-<pre class = 'prettyprint lang-bash'># copy directory
-local$ scp -r lucbau@pwipdm.uzh.ch:/home/random-name ~/PATH/</pre>
+<pre class = 'prettyprint lang-bash'># copy file
+$ scp -r lucbau@pwipdm.uzh.ch:/home/lucbau/../Daten/wegzug.csv ~/temp/
+# copy folder
+$ scp -r lucbau@pwipdm.uzh.ch:/home/lucbau/../Daten ~/temp/</pre>
 
 <ul>
 <li>transfer data from local to remote</li>
 </ul>
 
-<pre class = 'prettyprint lang-bash'># copy directory
-local$ scp -r ~/PATH/ lucbau@pwipdm.uzh.ch:/home/random-name/</pre>
+<pre class = 'prettyprint lang-bash'># copy file
+$ scp -r ~/temp/wegzug.csv lucbau@pwipdm.uzh.ch:/home/lucbau/../Daten/
+# copy folder
+$ scp -r ~/temp lucbau@pwipdm.uzh.ch:/home/lucbau/../Daten/</pre>
+
+<p>… wobei <code>~/ == /Users/lucienbaumgartner/</code></p>
 
 </article></slide><slide class=""><hgroup><h2>Wordpress</h2></hgroup><article  id="wordpress">
 
