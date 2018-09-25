@@ -128,4 +128,25 @@ Bei Errors:
 
 Schämt euch nicht, Code Schreiben will auch gelernt sein.
 
-## Ressourcen
+# Ressourcen
+
+## Basics
+
+- [Methodenleitbuch](https://github.com/lucienbaumgartner/ddj18/res/Chair_Uebungsbuch_2015.pdf)
+- [DataCamp R Intro](https://campus.datacamp.com/courses/free-introduction-to-r/chapter-1-intro-to-basics-1?ex=1)
+- [RegexBuddy](https://www.regular-expressions.info/)
+- [dplyr cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [dplyr Intro](https://rpubs.com/justmarkham/dplyr-tutorial)
+- [FT Visual Vocab](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+- [Stack overflow](https://stackoverflow.com/)
+
+## Extended
+
+- [Plot Layouts](https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html)
+- [R Graph Gallery](https://www.r-graph-gallery.com/)
+- [Tidying spatial data](http://strimas.com/r/tidy-sf/)
+- [Working with missing data in area plots](https://mattmazur.com/2017/04/19/removing-gaps-from-stacked-area-charts-in-r/)
+- [plotly for R](https://plotly-book.cpsievert.me/index.html)
+
+- [Little Inspiration (Capstone Website)](https://lucienbaumgartner.github.io/capstone_webdev/)
+
