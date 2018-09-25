@@ -55,7 +55,7 @@ Windows-User sollten noch [PuTTY downloaden](https://www.chiark.greenend.org.uk/
 knitr::include_graphics("~/ddj18/pres/img/p1/r-web-login.png")
 ```
 
-## Login via Terminal
+## Login via Terminal [!deprecated!]
 
 ```{r, engine = 'bash', eval=F, echo=T}
 # connect to remote
@@ -69,8 +69,9 @@ knitr::include_graphics("~/ddj18/pres/img/p1/terminal-login.png")
 
 Windows-User müssen ev. noch die [SSH-command enablen](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/)
 
-## Wo sind die Daten?
+# Wo sind die Daten?
 
+## Serverside
 - auf dem Server: /home/BENUTZERNAME/Link-st-zh
 - in der R-Umgebung:
 
@@ -79,11 +80,22 @@ knitr::include_graphics("~/ddj18/pres/img/p1/r-web-data.png")
 ```
 
 - Und wie kann ich die nun einlesen? In der Server-R-Umgebung:
+
 ```{r, out.width = '400px', fig.align='center'}
 knitr::include_graphics("~/ddj18/pres/img/p1/r-web-data-readin.png")
 ```
 
-## Daten lokal einlesen: Datentransfer
+## Transfer from remote to local
+
+Point and click ist am einfachsten: 
+
+```{r, out.width = '400px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p1/download-data.png")
+```
+
+Ihr könnt natürlich gleich `~/Link-st-zh` als ganzes downloaden. ACHTUNG: Stabiles Internet, VPN
+
+## Was dahinter geschieht
 
 - transfer data from remote to local
 ```{r, engine = 'bash', eval=F, echo=T}
