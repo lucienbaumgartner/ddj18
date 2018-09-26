@@ -117,6 +117,7 @@ $ scp -r ~/temp lucbau@pwipdm.uzh.ch:/home/lucbau/../Daten/
 
 ## Wordpress
 
+- [Link](http://pwiweb.uzh.ch/wordpress/wp-login.php)
 - Neuen Blogbeitrag erstellen
 - HTML vs. visual
 - Dateien einfügen:
