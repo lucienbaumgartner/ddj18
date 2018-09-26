@@ -1,12 +1,38 @@
+---
+_title: "HTML Cheat Sheet for Wordpress"
+author: "Lucien Baumgartner"
+date: "9/26/2018"
+output: html_document
+---
 
-# Bilder einfügen via upload-link
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy=T)
+```
 
-So sieht der HTML-code eines Bildes ein, das über die Mediathek geladen habt:
+```{css echo=F}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+  background-color:black;
+  color:white;
+}
+```
+
+
+
+# Add caption to imported pictures
+
+The HTML-side of things when you import a picture from the wordpress media library (make sure you upload your picture first, of course) looks like this:
 
 
 <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
 
-```
+```{html}
 <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
 
 ```
@@ -15,7 +41,7 @@ So sieht der HTML-code eines Bildes ein, das über die Mediathek geladen habt:
 
 If you want to add a caption, we just use `figure`-wrapper and add a `figcaption`-subelement:
 
-```
+```{html}
 <figure>
     <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
     <figcaption>Caption goes here</figcaption>
@@ -31,25 +57,25 @@ If you want to add a caption, we just use `figure`-wrapper and add a `figcaption
 
 Of course, you can adjust the properties of the caption individually. Often, a caption is slightly smaller than the text, grey-ish, and centered below the image. In order to achieve this we can add the following style properties to the `figcaption`-subelement:
 
-```
+```{html}
 style="font-size: 12px; color: grey; text-align: center"
 
 ```
 
 So that it looks like this:
 
-```
+```{html}
 <figure>
     <img class="alignnone size-full wp-image-16090"
      src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
-    <figcaption style="font-size: 12px; color: grey; text-align: center">Caption goes here</figcaption>
+    <figcaption style="font-size: 8px; color: grey; text-align: center">Caption goes here</figcaption>
 </figure>
 ```
 
 <figure>
     <img class="alignnone size-full wp-image-16090"
      src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
-    <figcaption style="font-size: 12px; color: grey; text-align: center">Caption goes here</figcaption>
+    <figcaption style="font-size: 8px; color: grey; text-align: center">Caption goes here</figcaption>
 </figure>
 
 &nbsp;
