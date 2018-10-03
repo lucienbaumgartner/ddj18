@@ -1,5 +1,5 @@
 ---
-title: "BootCamp 1: Basic R object-verse"
+title: "BootCamp 2: Basic R object-verse"
 author: "Lucien Baumgartner"
 date: "10/2/2018"
 output: 

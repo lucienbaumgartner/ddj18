@@ -2,7 +2,11 @@
 title: "BootCamp 1: Set your working directory (AND UNDERSTAND WHAT IT IS)"
 author: "Lucien Baumgartner"
 date: "10/2/2018"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    theme: readable
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +23,7 @@ C:\\Documents\\Data
 
 The working directory is the current path where R will save all objects to and load all objects from. It's your home, cherish it. Keep it tidy.
 
-## How to GET your working directory
+# How to GET your working directory
 
 How do I know what my current working directory is? Kinda easy:
 
@@ -27,7 +31,7 @@ How do I know what my current working directory is? Kinda easy:
 getwd()
 ```
 
-## How to switch or SET your working directory
+# How to switch or SET your working directory
 
 If you want to set another working directory, preferably the one you want to load the data from and save your objects in (hint, hint), you just need to provide R with the EXACT path. On OSX you can substitute your root with `~/`, transforming, for example, `/Users/BieneMaya/some/folder` to `~/some/folder`. Analoguous to `getwd` we can use:
 
@@ -40,11 +44,11 @@ setwd('~/ddj18/')
 
 Make sure you provide the path within parantheses! It doesn't matter if you use `""` or `''`. The reason for this is that R only allows for a character-singleton to be evaluated within the function `setwd()`. 
 
-## So many slashes
+# So many slashes
 
 But why is there a slash at the end of the character-singleton `'~/ddj18/'`? This specifies the path to objects IN, or put differently, the path INTO your folder. If you omit the trailing slash (`'~/ddj18'`) the path is *equally valid* but it does *not denote the same*: It only specifies the path TO your folder, but not into it (it doesn't 'open' it).
 
-## Why should I care?
+# Why should I care?
 
 Because you don't want errors. Depending on the exact path, you will have to adjust the path to the object(s) you want to load:
 
@@ -59,7 +63,7 @@ load('/RandomData.RData')
 
 And why is this? Because the *full path* to the object is ... exactly ... `~/ddj18/RandomData.RData`.
 
-## Love your parent folders!
+# Love your parent folders!
 
 When working on a project, you will have a folder for the project, and usually also some other random folder for different tasks. Let's assume your folder tree looks like that:
 
@@ -114,7 +118,7 @@ load('DE/MetaDE.RData')
 
 So better start thinking in folder structures - or adjust the folder structures to your thinking..
 
-## The most common mistakes
+# The most common mistakes
 
 1. Not knowing where you are working from. Solution: `getwd()`; but generally: just *always* set your working directory *in each and every script you write*, otherwise you may not where you got the data from, if you look at your script in a year.
 
@@ -147,13 +151,12 @@ setwd('~/ddj18/data/VL1/')
 tryCatch(setwd('~/ddj18/data/VL1/'), error=function(e)e)
 ```
 
-## How do I know the path to a file?
+# How do I know the path to a file?
 
 Open the Terminal (that's and application on your computer), and drag and drop the file into the open Terminal window. It will show you the exact path.
 
-## How do I know if the WD has correctly been set?
+# How do I know if the WD has correctly been set?
 
 Nothing happened when running the `setwd`-function? Great! If there was no error, the path exists, and has been set as WD. You can check it via `getwd()`
 
-# Congrats, you are done!
 
