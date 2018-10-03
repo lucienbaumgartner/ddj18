@@ -17,7 +17,7 @@ In the following I will just quickly run through the most basic object-classes y
 
 So here we are. What is R all about actually? Well, data analysis, right? Yeah. Kinda. But until you get to crunch actual numbers to compute your fancy analyses, you might want to take a step back. R is based on the language S (no, this is not a joke), which is *semantically open*. This mean that you can express/denote/say the same in different ways. Some ways may be less code-intensive, some may be more efficient, - but in the end this means you can develop your own style of codewriting (YAY). Now, what are we dealing with primarily, if not with numbers? Objects, functions, assignments, and evaluations. That's literally all there is. Everything falls into one or more of those categories.
 
-Let's get down to the business then.
+Let's get down to business then.
 
 # Assignments
 
@@ -477,3 +477,4 @@ rm(list = ls())
 [Package base version 3.5.1 Index]
 ```
 
+[Some parts of this intro were copied from: http://kateto.net/networks-r-igraph.]

@@ -1,0 +1,56 @@
+---
+title: 'BootCamp 3: Data import'
+author: "Lucien Baumgartner"
+date: "10/3/2018"
+output: 
+  html_document:
+    theme: readable 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir='~/ddj18-data/st-zh/Daten/')
+```
+
+This is a short one.
+
+# data.table::fread() vs. base::read.csv()
+
+Since we work with very big data sets encoded as CSV (comma separated values), we need some fast and efficient datahandling. Obviously, we shoudl keep an eye on that during the data import already.
+
+Base R has its own function to read in data in .csv-format, namely `read.csv()`. 
+
+```{r eval=F}
+# first we set our working directory
+# setwd('~/ddj18-data/st-zh/Daten/')
+```
+```{r}
+bev <- read.csv('bevoelkerung.csv')
+```
+
+
+Importing data with that function is waaaaaay slower than using `fread()` from the package `data.table` which provides a special dataframe-structure for powerful dataransformation operations. We will only use the aforementioned function.
+
+To use the function, you need to install the package, if you haven't already, and load the library beforehand. Loading a library is equivalent to adding a book to your home library in order for you to use all the knowldege stored in it (here: all the functions stored in it). Loading a library means loading functions to your workspace. I'll use the dataset `bevoelkerung.csv` as an example case, since it is the biggest dataset Statistik Zürich has provided you with.
+
+```{r eval=F}
+install.packages('data.table')
+```
+
+```{r}
+# load the library
+library(data.table)
+
+# time used to import data via base function
+system.time(
+  bev <- read.csv('bevoelkerung.csv')
+)
+
+# time used to import data via fread
+system.time(
+  bev <- fread('bevoelkerung.csv')
+  )
+```
+
+While `read.csv` needs over one minute (elpased time), `fread`, on the other hand, only 4s. Now that you have assigned the data to the object `bev`, you can use it to crunch some data.
+
