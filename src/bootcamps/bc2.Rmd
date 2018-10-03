@@ -1,0 +1,479 @@
+---
+title: "BootCamp 1: Basic R object-verse"
+author: "Lucien Baumgartner"
+date: "10/2/2018"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    theme: readable
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In the following I will just quickly run through the most basic object-classes you will encounter in R and how they can be manipulated.
+
+So here we are. What is R all about actually? Well, data analysis, right? Yeah. Kinda. But until you get to crunch actual numbers to compute your fancy analyses, you might want to take a step back. R is based on the language S (no, this is not a joke), which is *semantically open*. This mean that you can express/denote/say the same in different ways. Some ways may be less code-intensive, some may be more efficient, - but in the end this means you can develop your own style of codewriting (YAY). Now, what are we dealing with primarily, if not with numbers? Objects, functions, assignments, and evaluations. That's literally all there is. Everything falls into one or more of those categories.
+
+Let's get down to the business then.
+
+# Assignments
+
+Assignments define/create objects. The object to be created is left from the assignment operator (= the object as-a-name), the content of the object (= the object as-it-is) is right form it.
+
+```{r}
+x <- 3         # assign a number to an object we call 'x'
+x              # evaluate the expression and print result
+```
+
+Now we evaluate and print an object transformation:
+
+```{r}
+x+5
+```
+
+You can also *store* the transformation by creating a new object...
+```{r}
+y <- x+5
+y
+```
+
+... or overwrite the current object:
+```{r}
+x # before the transformation
+x <- x+5
+x # after the transformation
+```
+
+You can also let objects interact:
+```{r}
+x <- 3
+y <- x*6
+x/y
+```
+
+All your objects are stored in your *environment* (`glovbalenv`), which is also an object-class btw. For people with advanced knowledge in R, there is an interesting article on the use of custom environments [here](http://adv-r.had.co.nz/Environments.html). 
+
+```{r}
+ls(globalenv())
+```
+
+All objects also appear in your environment pane in RStudio. We will have a lookt at how we can remove objects later. 
+
+Now let's have a look at different object classes.
+
+# The main object classes
+
+The main object classes of first order are:
+
+- numeric (numbers like `1.2, 3, -0.12`)
+- integer (whole numbers, locked with an L-suffix, like this: `3L, 405L`)
+- character (= 'words', but really anything between parantheses, be it words, or numbers, or anything else, like `'ice cream', 'a', '1.2', '.', 'TRUE'`. They are evaluated as text.)
+- factor (special form of character)
+
+Second-order object classes are specifically structured collections of first order objects:
+
+- vectors (strings of objects, written like `c(1, 3, 1.3)`)
+- matrices (combinations of vectors)
+- dataframes (matrices with more meta-properties)
+- lists (special data storage form)
+- arrays (multidimensional-matrices)
+- environments (meta-object)
+
+## Vectors
+
+The most common objects you will encounter are probably vector, matrices and dataframes. Second-order objects always inherit the first-order classes from the objects they encompass. For example, a vector containing only character objects, is a charcter vector, one only containing whole numbers will be of both the classes numeric, and vector. To find out the dominant class of an object, we use `class()`
+
+```{r}
+class(c(1,3,4))
+```
+
+We can also check for all the other classes individually:
+```{r}
+num_vec <- c(1,3,4)
+is.vector(num_vec)
+```
+
+We can also change the classes of object by coering them into another class:
+```{r}
+char_vec <- as.character(num_vec)
+is.vector(char_vec)
+is.character(char_vec)
+char_vec==num_vec
+char_vec
+num_vec
+```
+Note the parantheses added to the numeric version of the vector, as it is coerced to character.
+
+### How to create vectors
+Other ways to create vectors include:
+```{r}
+v <- 1:7         # same as c(1,2,3,4,5,6,7)  
+v <- rep(0, 77)  # repeat zero 77 times: v is a vector of 77 zeroes
+v <- rep(1:3, times=2) # Repeat 1,2,3 twice  
+v <- rep(1:10, each=2) # Repeat each element twice  
+v <- seq(10,20,2) # sequence: numbers between 10 and 20, in jumps of 2  
+v1 <- 1:5         # 1,2,3,4,5
+v2 <- rep(1,5)    # 1,1,1,1,1 
+```
+
+### Different operations with vectors
+
+*Classes define the properties* of objects. For example, numeric transformation can only be performed on numeric or integer objects, but not on characters.
+```{r error=T}
+# multiply each object in the numeric vector by 2
+2*num_vec
+
+# try the same with a character vector
+2*char_vec
+```
+
+Check the length of a vector:
+```{r}
+length(v1)
+length(v2)
+```
+
+Element-wise operations:
+```{r}
+v1+v2      # Element-wise addition
+v1+1       # Add 1 to each element
+v1*2       # Multiply each element by 2
+v1+c(1,7)  # This doesn't work: (1,7) is a vector of different length
+```
+
+
+Mathematical operations:
+
+```{r}
+sum(v1)      # The sum of all elements
+mean(v1)     # The average of all elements
+sd(v1)       # The standard deviation
+cor(v1,v1*5) # Correlation between v1 and v1*5 
+```
+
+Logical operations:
+
+```{r}
+v1 > 2       # Each element is compared to 2, returns logical vector
+v1==v2       # Are corresponding elements equivalent, returns logical vector.
+v1!=v2       # Are corresponding elements *not* equivalent? Same as !(v1==v2)
+(v1>2) | (v2>0)   # | is the boolean OR, returns a vector.
+(v1>2) & (v2>0)   # & is the boolean AND, returns a vector.
+(v1>2) || (v2>0)  # || is the boolean OR, returns a single value
+(v1>2) && (v2>0)  # && is the boolean AND, ditto
+```
+
+
+## Matrices
+You can coerce vectors to two-dimensional objects like matrices and dataframes, containing rows and columns.
+```{r}
+num_vec1 <- c(1,3,4)
+matrix(num_vec1)
+```
+
+You can combine vectors to matrices *by binding* them together:
+```{r}
+num_vec2 <- c(5,6,7)
+num_mat <- cbind(num_vec1, num_vec2)
+is.matrix(num_mat)
+num_mat
+```
+
+Matrices, in contrast to dataframes, can only contain objects from one first-order class. As soon as a second class is added to a matrix, all columns in the matrix change to the dominant first-order class.
+```{r}
+is.numeric(num_mat)
+# by appedending a character vector to the numeric matrix, we change the whole matrix to character
+mat2 <- cbind(num_mat, char_vec)
+is.character(mat2)
+mat2
+```
+
+You might already have noticed that matrices in R are not identical to mathematical matrices who always have the same number of rows and columns.
+
+## Dataframes
+Dataframes are a special breed of matrices. They, for example, allow for multi-class objects to be stored, preserving their class. 
+
+```{r}
+df <- data.frame(num_vec1, num_vec2, char_vec, stringsAsFactors = F)
+df
+```
+
+If we look at the structure of `df`, we see that the column `char_vec` is character, while the others are numeric:
+```{r}
+str(df)
+```
+
+But why did we use the paramater `stringsAsFactors` to `FALSE`? Because dataframes coerce character vector to factors by default. Before we look at factors, we wanna perform index-based data transformations, depending on the specific class of each variable. You can access each and every value stored in the dataframe either by index-position, index-name, or by isolating a variable:
+
+```{r}
+# lets multiply the variable/column num_vec1 by 25
+df[1]*25 # by column index (number of the specific column)
+df['num_vec1']*25 # by variable name
+df$num_vec1*25 # by variable
+```
+As you can see, in the first two cases, the resulting object is still a dataframe object (although only single-column); if you isolate a variable, on the other hand, you coerce it back to a vector.
+
+Now if you want to 'save' the transformation in the same object as a replacement to the original variables, you have to overwrite the existing columns. This is done by assigning the transformed values to the same variable/column/vector:
+```{r}
+df[1] <- df[1]*25 # by column index (number of the specific column)
+df['num_vec1'] <- df['num_vec1']*25 # by variable name
+df$num_vec1 <- df$num_vec1*25 # by variable
+
+df
+```
+
+Now you see that we actually multiplied `num_vec1*25*25*25`, since in each stage we performed a transformation on an already transformed object (except in the first step of course).
+
+Now we create a variable `new_var=num_vec1-num_vec1`:
+```{r}
+df$new_var <- df$num_vec1-num_vec2
+df
+```
+
+Let's work on the character variable now and paste 'a' as a suffix to the existing characters:
+```{r}
+df$char_vec
+df$char_vec <- paste0(df$char_vec, 'a')
+df
+```
+
+Now if you want to access a specific subset of you can additonally specify the rownumber in addition to the column-index:
+```{r}
+# 2nd observation from the first column
+df[2, 1] # by column number
+df[2, 'num_vec1'] # by column name
+df$num_vec1[2] # by variable
+```
+
+Of course, you can also access several columns for every observation:
+```{r}
+# variable num_vec1 and char_vec only for 2nd observation
+df[2, c(1, 3)] # by column number
+df[2, c('num_vec1', 'char_vec')] # by column name
+# by variable - makes no sense here
+
+# all variables only for 2nd observation
+df[2, ]
+```
+
+## Lists
+
+1.7 Lists
+Lists are collections of objects. A single list can contain all kinds of elements - character strings, numeric vectors, matrices, other lists, and so on. The elements of lists are often named for easier access.
+
+```{r}
+l1 <- list(boo=v1,foo=v2,moo=c(1.2),zoo="Animals!")  # A list with four components
+l1
+l2 <- list(v1,v2,"Animals!")  # A list with three components
+l2
+```
+
+Create an empty list:
+```{r}
+l3 <- list()
+l3
+l4 <- NULL
+l4
+```
+
+Accessing list elements:
+
+```{r}
+l1["boo"]   # Access boo with single brackets: this returns a list.
+l1[["boo"]] # Access boo with double brackets: this returns the numeric vector
+l1[[1]]     # Returns the first component of the list, equivalent to above.
+l1$boo      # Named elements can be accessed with the $ operator, as with [[]]
+```
+
+Adding more elements to a list:
+```{r}
+l3[[1]] <- 11 # add an element to the empty list l3
+l4[[3]] <- c(22, 23) # add a vector as element 3 in the empty list l4. 
+```
+Since we added element 3 to the list l4above, elements 1 and 2 will be generated and empty (NULL).
+```{r}
+l1[[5]] <- "More elements!" # The list l1 had 4 elements, we're adding a 5th here.
+l1[[8]] <- 1:11 
+```
+We added an 8th element, but not 6th and 7th to the listl1 above. Elements number 6 and 7 will be created empty (NULL).
+```{r}
+l1$Something <- "A thing"  # Adds a ninth element - "A thing", named "Something"
+```
+
+
+# Value comparisons and special constants
+
+Special constants include:
+
+- `NA` for missing or undefined data
+- `NULL` for empty object (e.g. null/empty lists)
+- `Inf` and `-Inf` for positive and negative infinity
+- `NaN` for results that cannot be reasonably defined
+```{r}
+# NA - missing or undefined data
+
+5+NA      # When used in an expression, the result is generally NA
+
+is.na(5+NA) # Check if missing
+
+# NULL - an empty object, e.g. a null/empty list
+
+10+NULL     # use returns an empty object (length zero)
+
+is.null(NULL) # check if NULL
+```
+
+Inf and -Inf represent positive and negative infinity. They can be returned by mathematical operations like division of a number by zero:
+
+```{r}
+5/0
+
+is.finite(5/0) # Check if a number is finite (it is not).
+```
+
+NaN (Not a Number) - the result of an operation that cannot be reasonably defined, such as dividing zero by zero.
+
+```{r}
+0/0
+
+is.nan(0/0)
+```
+
+# Special case: factors
+So now on to factors. Factors are special cases of character vectors. Their little twist is that additionally provide *levels*, this is all unique tokens in the character string. lots of blah, this is how it looks:
+
+```{r}
+char_str <- c('CH', 'DE', 'CH', 'IT', 'IT', 'CH', 'FR', 'ES')
+char_str
+# coerce to factor
+fctr_str <- factor(char_str)
+fctr_str
+```
+
+CH is mentioned multiple times, but only generates one level, so that levels are identical to groups in your data. Factor variables can be useful for grouping/aggregating data, as well as plotting. 
+
+# Removing objects
+
+you want to remove objects, just use the `rm`-function:
+
+```{r}
+rm(x)
+```
+
+Once this has been evaluated, you will not be able to call the removed object anymore:
+```{r eval=F}
+x
+```
+
+```{r echo=F}
+tryCatch({x}, error=function(e){e})
+```
+If you want to remove several objects, you can just list the objects:
+```{r}
+x <- 3 # create object x again
+rm(x, y)
+```
+
+Whenever you want to start from scratch (usually when you start a new R script!), you may want to clean your whole environment. Most scripts should include this line in the header to avoid working with objects that are not actually generated by that specific script (and also to avoid any accidential objectification of variables, but we get to that later).
+
+```{r}
+rm(list=ls())
+```
+
+What does it do? 
+- `ls()` is a function to list all objects in your environment. It denotes the same as `ls(globalenv())`, so it is semantically identical (`==`). 
+
+```{r}
+# create objects again (they have been removed by rm(list=ls()), remember?)
+x <- 3 
+y <- x*6
+
+# list objects
+ls()
+ls()==ls(globalenv())
+```
+
+- The way the objects are listed is in an of itself an object again, namely a character vector, this is a vector containing one or more character objects. Here, the character objects are the names of the objects `x` and `y`, in this case `'x'`, `'y'` (!parantheses!). How do we prove it is actually a character vector? We can use the functions `is.vector()` and `is.character()` to evaluate whether the objects in the function are vector, or characters, respectively. The output of the function itself is a *logical* (object).
+
+```{r}
+is.vector(ls()) # proof that the function ls() equates to a vector
+is.character(ls()) # proof that the function ls() equates to a character object
+```
+
+Or simply:
+```{r}
+is.vector(ls())&is.character(ls())
+```
+
+So why do we equate `ls()` to `list` in `rm(list=ls())`? Because this is how we tell the function what to delete. Hm... But before that we could just call `rm(x, y)` to delete objects, *directly calling them* (without having to use their name). Yes, that is true, BUT you could also have written the exact same 
+by using `rm(list=c('x', 'y'))`, where `c()` creates a vector. Why is this? The explanation can be found in the documentation of the `rm`-function which can be called prefixing the function with a question mark (`?rm` [without brackets!]). Below you see a print of the documentation. The only thing that we are interested in right now is the **Usage** section. There you can see *what arguments can be passed to the function and how*. Ther we see that we `...` just means `the objects to be removed, as names (unquoted) or character strings (quoted)`. This is what we did in `rm(x, y)` which, hence, is a specification of `rm(...)`. Alternatively, you can also pass the objects via `list = character()`, where the parameter `list` is defined as `a character vector naming objects to be removed`. This is what we did in `rm(list=c('x', 'y'))` and what we do in `rm(list=ls())`.
+
+```{r}
+?rm
+```
+```{html}
+
+remove {base}	R Documentation
+Remove Objects from a Specified Environment
+
+Description
+
+remove and rm can be used to remove objects. These can be specified successively as character strings, or in the character vector list, or through a combination of both. All objects thus specified will be removed.
+
+If envir is NULL then the currently active environment is searched first.
+
+If inherits is TRUE then parents of the supplied directory are searched until a variable with the given name is encountered. A warning is printed for each variable that is not found.
+
+Usage
+
+remove(..., list = character(), pos = -1,
+       envir = as.environment(pos), inherits = FALSE)
+
+rm    (..., list = character(), pos = -1,
+       envir = as.environment(pos), inherits = FALSE)
+Arguments
+
+...	
+the objects to be removed, as names (unquoted) or character strings (quoted).
+list	
+a character vector naming objects to be removed.
+pos	
+where to do the removal. By default, uses the current environment. See ‘details’ for other possibilities.
+envir	
+the environment to use. See ‘details’.
+inherits	
+should the enclosing frames of the environment be inspected?
+Details
+
+The pos argument can specify the environment from which to remove the objects in any of several ways: as an integer (the position in the search list); as the character string name of an element in the search list; or as an environment (including using sys.frame to access the currently active function calls). The envir argument is an alternative way to specify an environment, but is primarily there for back compatibility.
+
+It is not allowed to remove variables from the base environment and base namespace, nor from any environment which is locked (see lockEnvironment).
+
+Earlier versions of R incorrectly claimed that supplying a character vector in ... removed the objects named in the character vector, but it removed the character vector. Use the list argument to specify objects via a character vector.
+
+References
+
+Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole.
+
+See Also
+
+ls, objects
+
+Examples
+
+tmp <- 1:4
+## work with tmp  and cleanup
+rm(tmp)
+
+## Not run: 
+## remove (almost) everything in the working environment.
+## You will get no warning, so don't do this unless you are really sure.
+rm(list = ls())
+
+## End(Not run)
+[Package base version 3.5.1 Index]
+```
+
