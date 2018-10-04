@@ -325,33 +325,60 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+  background-color:white;
+}
+
+pre.r{
+  background-color:black;
+  color:white;
+}
+</style>
 <p>This is a short one.</p>
 <div id="data.tablefread-vs.baseread.csv" class="section level1">
 <h1>data.table::fread() vs. base::read.csv()</h1>
-<p>Since we work with very big data sets encoded as CSV (comma separated values), we need some fast and efficient datahandling. Obviously, we shoudl keep an eye on that during the data import already.</p>
-<p>Base R has its own function to read in data in .csv-format, namely <code>read.csv()</code>.</p>
+<p>Since we work with very big data sets encoded as CSV (comma separated values), we need some fast and efficient datahandling.</p>
+<p>Base R has its own function to import data in .csv-format, namely <code>read.csv()</code>.</p>
 <pre class="r"><code># first we set our working directory
-# setwd('~/ddj18-data/st-zh/Daten/')</code></pre>
-<pre class="r"><code>bev &lt;- read.csv('bevoelkerung.csv')</code></pre>
-<p>Importing data with that function is waaaaaay slower than using <code>fread()</code> from the package <code>data.table</code> which provides a special dataframe-structure for powerful dataransformation operations. We will only use the aforementioned function.</p>
-<p>To use the function, you need to install the package, if you haven’t already, and load the library beforehand. Loading a library is equivalent to adding a book to your home library in order for you to use all the knowldege stored in it (here: all the functions stored in it). Loading a library means loading functions to your workspace. I’ll use the dataset <code>bevoelkerung.csv</code> as an example case, since it is the biggest dataset Statistik Zürich has provided you with.</p>
+setwd('~/ddj18-data/st-zh/Daten/')</code></pre>
+<pre class="r"><code>bev &lt;- read.csv('bevoelkerung.csv', 
+                stringsAsFactors = F)</code></pre>
+<p>Importing data with that function is waaaaaay slower than using <code>fread()</code> from the package <code>data.table</code> which provides a special dataframe-structure for powerful dataransformation operations. We will only use the aforementioned function, though.</p>
+<p>To use the function, you need to install the package, if you haven’t already, and load the library beforehand. Loading a library is equivalent to adding a book (yes, a real book) to your library at home in order for you to use all the knowldege stored in it (here: all the functions stored in it). Loading a library means loading functions to your workspace. I’ll use the dataset <code>bevoelkerung.csv</code> as an example case, since it is the biggest dataset Statistik Zürich has provided you with.</p>
 <pre class="r"><code>install.packages('data.table')</code></pre>
 <pre class="r"><code># load the library
 library(data.table)
 
 # time used to import data via base function
 system.time(
-  bev &lt;- read.csv('bevoelkerung.csv')
+  bev &lt;- read.csv('bevoelkerung.csv',
+                   stringsAsFactors = F)
 )</code></pre>
 <pre><code>##    user  system elapsed 
-##  57.987   2.880  61.306</code></pre>
+##  64.091   3.531  68.735</code></pre>
 <pre class="r"><code># time used to import data via fread
 system.time(
   bev &lt;- fread('bevoelkerung.csv')
   )</code></pre>
 <pre><code>##    user  system elapsed 
-##  20.728   1.481   3.919</code></pre>
-<p>While <code>read.csv</code> needs over one minute (elpased time), <code>fread</code>, on the other hand, only 4s. Now that you have assigned the data to the object <code>bev</code>, you can use it to crunch some data.</p>
+##  18.427   1.590   4.385</code></pre>
+<p>While <code>read.csv</code> needs over one minute (elpased time), <code>fread</code>, on the other hand, only 4s (NOTE:: I’m running a selenium scraper while compiling this script, so the import time jumps up to roughly 20s). Now that you have assigned the data to the object <code>bev</code>, you can use it to crunch some data.</p>
+<p><code>system.time()</code> is only used to show you how long an evaluation takes, you don’t need to include that in your script.</p>
+<p>Make sure to set the paramater <code>stringsAsFactors</code> to <code>FALSE</code> in <code>read.csv</code>, since <code>TRUE</code> is the default (in <code>fread</code>, from v 1.9.6+, the default is <code>FALSE</code>). Why? Because we want total control over the data. We <em>always</em> create perform class transformations ourselves, except for very special cases. If you work with factors, some operations will just fail or create NAs, while they work with characters. I will show some examples in another script.</p>
+<p>If you get this error btw, you just set the path wrongly:</p>
+<pre class="r"><code>bev &lt;- read.csv('wrong/path/bevoelkerung.csv', 
+                stringsAsFactors = F)</code></pre>
+<pre><code>## Warning in file(file, &quot;rt&quot;): cannot open file 'wrong/path/
+## bevoelkerung.csv': No such file or directory</code></pre>
+<pre><code>## Error in file(file, &quot;rt&quot;): cannot open the connection</code></pre>
 </div>
 
 

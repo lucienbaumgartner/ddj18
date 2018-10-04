@@ -13,6 +13,24 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{css echo=F}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+  background-color:white;
+}
+
+pre.r{
+  background-color:black;
+  color:white;
+}
+```
+
 In the following I will just quickly run through the most basic object-classes you will encounter in R and how they can be manipulated.
 
 So here we are. What is R all about actually? Well, data analysis, right? Yeah. Kinda. But until you get to crunch actual numbers to compute your fancy analyses, you might want to take a step back. R is based on the language S (no, this is not a joke), which is *semantically open*. This mean that you can express/denote/say the same in different ways. Some ways may be less code-intensive, some may be more efficient, - but in the end this means you can develop your own style of codewriting (YAY). Now, what are we dealing with primarily, if not with numbers? Objects, functions, assignments, and evaluations. That's literally all there is. Everything falls into one or more of those categories.
@@ -21,7 +39,7 @@ Let's get down to business then.
 
 # Assignments
 
-Assignments define/create objects. The object to be created is left from the assignment operator (= the object as-a-name), the content of the object (= the object as-it-is) is right form it.
+Assignments define/create objects. The object to be created is left of the assignment operator (= the object as-a-name), the content of the object (= the object as-it-is) is right of it.
 
 ```{r}
 x <- 3         # assign a number to an object we call 'x'
@@ -54,7 +72,7 @@ y <- x*6
 x/y
 ```
 
-All your objects are stored in your *environment* (`glovbalenv`), which is also an object-class btw. For people with advanced knowledge in R, there is an interesting article on the use of custom environments [here](http://adv-r.had.co.nz/Environments.html). 
+All your objects are stored in your *environment* (`glovbalenv`), which is also an object-class. For people with advanced knowledge in R, there is an interesting article on the use of custom environments [here](http://adv-r.had.co.nz/Environments.html). 
 
 ```{r}
 ls(globalenv())
@@ -84,7 +102,7 @@ Second-order object classes are specifically structured collections of first ord
 
 ## Vectors
 
-The most common objects you will encounter are probably vector, matrices and dataframes. Second-order objects always inherit the first-order classes from the objects they encompass. For example, a vector containing only character objects, is a charcter vector, one only containing whole numbers will be of both the classes numeric, and vector. To find out the dominant class of an object, we use `class()`
+The most common objects you will encounter are probably vectors, matrices and dataframes. Second-order objects always inherit the first-order classes from the objects they encompass. For example, a vector containing only character objects, is a charcter vector, one only containing whole numbers will be of both the classes numeric, and vector. To find out the dominant class of an object, we use `class()`
 
 ```{r}
 class(c(1,3,4))
@@ -101,7 +119,7 @@ We can also change the classes of object by coering them into another class:
 char_vec <- as.character(num_vec)
 is.vector(char_vec)
 is.character(char_vec)
-char_vec==num_vec
+identical(char_vec, num_vec)
 char_vec
 num_vec
 ```
@@ -130,13 +148,17 @@ v2 <- rep(1,5)    # 1,1,1,1,1
 2*char_vec
 ```
 
-Check the length of a vector:
+\bigskip
+
+**Check the length of a vector:**
 ```{r}
 length(v1)
 length(v2)
 ```
 
-Element-wise operations:
+\bigskip
+
+**Element-wise operations:**
 ```{r}
 v1+v2      # Element-wise addition
 v1+1       # Add 1 to each element
@@ -144,8 +166,10 @@ v1*2       # Multiply each element by 2
 v1+c(1,7)  # This doesn't work: (1,7) is a vector of different length
 ```
 
+\bigskip
 
-Mathematical operations:
+
+**Mathematical operations:**
 
 ```{r}
 sum(v1)      # The sum of all elements
@@ -154,7 +178,9 @@ sd(v1)       # The standard deviation
 cor(v1,v1*5) # Correlation between v1 and v1*5 
 ```
 
-Logical operations:
+\bigskip
+
+**Logical operations:**
 
 ```{r}
 v1 > 2       # Each element is compared to 2, returns logical vector
@@ -174,7 +200,7 @@ num_vec1 <- c(1,3,4)
 matrix(num_vec1)
 ```
 
-You can combine vectors to matrices *by binding* them together:
+You can combine vectors to matrices by *binding* them together:
 ```{r}
 num_vec2 <- c(5,6,7)
 num_mat <- cbind(num_vec1, num_vec2)
@@ -201,7 +227,7 @@ df <- data.frame(num_vec1, num_vec2, char_vec, stringsAsFactors = F)
 df
 ```
 
-If we look at the structure of `df`, we see that the column `char_vec` is character, while the others are numeric:
+If we look at the structure of `df`, we see that the column `char_vec` is a character, while the others are numeric:
 ```{r}
 str(df)
 ```
@@ -225,7 +251,7 @@ df$num_vec1 <- df$num_vec1*25 # by variable
 df
 ```
 
-Now you see that we actually multiplied `num_vec1*25*25*25`, since in each stage we performed a transformation on an already transformed object (except in the first step of course).
+Now, you see that we actually multiplied `num_vec1*25*25*25`, since in each stage we performed a transformation on an already transformed object (except in the first step of course).
 
 Now we create a variable `new_var=num_vec1-num_vec1`:
 ```{r}
@@ -261,7 +287,6 @@ df[2, ]
 
 ## Lists
 
-1.7 Lists
 Lists are collections of objects. A single list can contain all kinds of elements - character strings, numeric vectors, matrices, other lists, and so on. The elements of lists are often named for easier access.
 
 ```{r}
@@ -343,7 +368,7 @@ is.nan(0/0)
 ```
 
 # Special case: factors
-So now on to factors. Factors are special cases of character vectors. Their little twist is that additionally provide *levels*, this is all unique tokens in the character string. lots of blah, this is how it looks:
+So now on to factors. Factors are special cases of character vectors. Their little twist is that they additionally provide *levels*, this is all unique tokens in the character string. lots of blah, this is how it looks:
 
 ```{r}
 char_str <- c('CH', 'DE', 'CH', 'IT', 'IT', 'CH', 'FR', 'ES')
@@ -396,7 +421,7 @@ ls()
 ls()==ls(globalenv())
 ```
 
-- The way the objects are listed is in an of itself an object again, namely a character vector, this is a vector containing one or more character objects. Here, the character objects are the names of the objects `x` and `y`, in this case `'x'`, `'y'` (!parantheses!). How do we prove it is actually a character vector? We can use the functions `is.vector()` and `is.character()` to evaluate whether the objects in the function are vector, or characters, respectively. The output of the function itself is a *logical* (object).
+The way the objects are listed is in an of itself an object again, namely a character vector, this is a vector containing one or more character objects. Here, the character objects are the names of the objects `x` and `y`, in this case `'x'`, `'y'` (!parantheses!). How do we prove it is actually a character vector? We can use the functions `is.vector()` and `is.character()` to evaluate whether the objects in the function are vector, or characters, respectively. The output of the function itself is a *logical* (object).
 
 ```{r}
 is.vector(ls()) # proof that the function ls() equates to a vector

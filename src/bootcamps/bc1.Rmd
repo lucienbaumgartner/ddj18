@@ -13,6 +13,25 @@ output:
 knitr::opts_chunk$set(echo = TRUE, eval=F)
 ```
 
+```{css echo=F}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+    background-color:black;
+    color:white;
+}
+
+pre.r{
+  background-color:black;
+  color:white;
+}
+```
+
 A quick reminder: I work on OSX, so if you work on Windows, make sure you know how to specify a path analoguously: You can either use forward slashes, like I do, or double backward slashes (I will explain why once we get to regex in R, just be patient), but always with a prefix specifying your harddisk. Example:
 
 ```{html}
@@ -33,7 +52,7 @@ getwd()
 
 # How to switch or SET your working directory
 
-If you want to set another working directory, preferably the one you want to load the data from and save your objects in (hint, hint), you just need to provide R with the EXACT path. On OSX you can substitute your root with `~/`, transforming, for example, `/Users/BieneMaya/some/folder` to `~/some/folder`. Analoguous to `getwd` we can use:
+If you want to set another working directory, preferably the one you want to load the data from and save your objects in (hint, hint), you just need to provide R with the EXACT path. On OSX you can substitute your home folder with `~/`, transforming, for example, `/Users/BieneMaya/some/folder` to `~/some/folder`. Analogous to `getwd` we can use:
 
 ```{r}
 # full path
