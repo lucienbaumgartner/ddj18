@@ -23,7 +23,10 @@ nms <- sapply(nms, function(x) x[x%in%nms[['bevoelkerung']]])
 # for each variable, we will use these respective variables to bind it together with bevoelkerung:
 nms
 
-# now lets combine them
+# now lets combine them..
+# .. but we have two kinds of information: building-level and person-level, so we need to create two datasets
+
+## person-level data (without wohnungen)
 for(i in names(nms)[!names(nms)%in%c('wohnung')]){
   print(i)
   if(identical(i, 'bevoelkerung')){
@@ -38,6 +41,7 @@ pers <- df
 save(df, file='02-joined-df-persnum-lvl.RData')
 rm('df', 'dfl', 'pers')
 
+## building-level data (inflated by wohnungen!!!)
 dfl <- pblapply(grep(paste0('01-', c('finanzen', 'gebaeude', 'wohnung'), collapse = '|') , list.files(), value=T), function(x){
   load(x)
   return(df)
@@ -58,5 +62,4 @@ for(i in c('finanzen', 'gebaeude', 'wohnung')){
 geb <- df
 save(df, file='02-joined-df-gebnum-lvl.RData')
 
-str(geb)
 
