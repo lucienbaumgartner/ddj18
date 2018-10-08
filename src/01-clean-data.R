@@ -105,18 +105,16 @@ replNA <- function(x) ifelse(is.character(x)&grepl('^$', x), NA, x)
 # now that the data is store in RData-format, we can just load it, we don't need fread() anymore
 
 ### multi-element handling: single data sets
-for(i in list.files()){
+for(i in grep('00', list.files(), value=T)){
   print(i)
   
-  # import 00-bevoelkerung.RData
+  # import data
   load(i)
   
-  # let's convert it to a tibble (sparse dataframe, optimal to work with dplyr)
+  # convert to tibbleadjust names, and clean data
   df <- as_tibble(df) %>% 
-    setNames(., tolower(colnames(df)))
-  
-  # clean data
-  df2 <- mutate_all(df, change_encoding) %>% 
+    setNames(., tolower(colnames(df))) %>% 
+    mutate_all(., change_encoding) %>% 
     mutate_all(., replNA)
   
   save(df, file = paste0('01-', gsub('00-|\\.RData', '', i), '-clean.RData'))
