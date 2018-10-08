@@ -1,8 +1,12 @@
 ---
-_title: "HTML Cheat Sheet for Wordpress"
+title: "HTML Cheat Sheet for Wordpress"
 author: "Lucien Baumgartner"
 date: "9/26/2018"
-output: html_document
+output: 
+  html_document:
+     theme: readable 
+     toc: true
+     number_sections: true 
 ---
 
 ```{r setup, include=FALSE}
@@ -25,17 +29,21 @@ pre.html{
 
 
 
-# Add caption to imported pictures
+# Images
+
+## How to import images
 
 The HTML-side of things when you import a picture from the wordpress media library (make sure you upload your picture first, of course) looks like this:
 
 
-<img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+<img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
 
 ```{html}
-<img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+<img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
 
 ```
+
+## How to add caption to imported images 
 
 &nbsp;
 
@@ -43,17 +51,19 @@ If you want to add a caption, we just use `figure`-wrapper and add a `figcaption
 
 ```{html}
 <figure>
-    <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+    <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
     <figcaption>Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
 ```
 
 <figure>
-    <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+    <img class="alignnone size-full wp-image-16090" src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
     <figcaption>Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
 
 &nbsp;
+
+## How to change caption parameters
 
 Of course, you can adjust the properties of the caption individually. Often, a caption is slightly smaller than the text, grey-ish, and centered below the image. In order to achieve this we can add the following style properties to the `figcaption`-subelement:
 
@@ -67,35 +77,50 @@ So that it looks like this:
 ```{html}
 <figure>
     <img class="alignnone size-full wp-image-16090"
-     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
     <figcaption style="font-size: 8px; color: grey; text-align: center">Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
 ```
 
 <figure>
     <img class="alignnone size-full wp-image-16090"
-     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
+     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
     <figcaption style="font-size: 8px; color: grey; text-align: center">Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
 
 &nbsp;
 
+## How to center images and text
 
-### dump
-As ypu can see, now the caption is centered in the middle of the page, but the actual image is not. This can be changed by adding the following spec to the `img`-element:
+As you can see, now the caption is centered in the middle of the page, but the actual image is not. This can be changed by adding the following spec to the `img`-element:
 
 ```{html}
 <figure>
-    <img class="alignnone size-full wp-image-16090" style="display: block; margin-left: auto;margin-right: auto;
-    width: 50%;"
-     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="1000" height="400" />
-    <figcaption style="font-size: 10px; color: grey;">Hey I'm a caption, my author is :: anonymous ::</figcaption>
+    <img class="size-full wp-image-16090" style="display: block; margin-left: auto;margin-right: auto;"
+     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
+    <figcaption style="font-size: 10px; color: grey; text-align: center">Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
 ```
 
 <figure>
-    <img class="alignnone size-full wp-image-16090" style="display: block; margin-left: auto;margin-right: auto;
-    width: 100%;"
-     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="800" height="400" />
-    <figcaption style="font-size: 10px; color: grey;">Hey I'm a caption, my author is :: anonymous ::</figcaption>
+    <img class="size-full wp-image-16090" style="display: block; margin-left: auto;margin-right: auto;"
+     src="http://pwiweb.uzh.ch/wordpress/wp-content/uploads/2018/05/insta.jpg" alt="" width="500" height="300" />
+    <figcaption style="font-size: 10px; color: grey; text-align: center">Hey I'm a caption, my author is :: anonymous ::</figcaption>
 </figure>
+
+# Iframes
+
+Several online tools produce an iframe cross-reference that can be inluded in your blog post. With most such tools you just need to copy the iframe-snippet and paste it into the text-panel of your blog post. It will look like this:
+
+```{html}
+<iframe src="https://embed.windy.com/embed2.html?lat=46.680&amp;lon=-117.246&amp;zoom=3&amp;level=850h&amp;overlay=wind&amp;menu=&amp;message=&amp;marker=&amp;calendar=&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=&amp;detailLat=46.680&amp;detailLon=-117.246&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1" width="650" height="450" frameborder="0"></iframe>
+```
+
+<iframe src="https://embed.windy.com/embed2.html?lat=46.680&amp;lon=-117.246&amp;zoom=3&amp;level=850h&amp;overlay=wind&amp;menu=&amp;message=&amp;marker=&amp;calendar=&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=&amp;detailLat=46.680&amp;detailLon=-117.246&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1" width="650" height="450" frameborder="0"></iframe>
+
+To adjust you can simply change the width and height parameters. If you also want to center it, just insert `style="display: block; margin-left: auto;margin-right: auto;"`, just as we did above.
+
+```{html}
+<iframe src="https://embed.windy.com/embed2.html?lat=46.680&amp;lon=-117.246&amp;zoom=3&amp;level=850h&amp;overlay=wind&amp;menu=&amp;message=&amp;marker=&amp;calendar=&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=&amp;detailLat=46.680&amp;detailLon=-117.246&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1" style="display: block; margin-left: auto;margin-right: auto;" width="250" height="150" frameborder="0"></iframe>
+```
+<iframe src="https://embed.windy.com/embed2.html?lat=46.680&amp;lon=-117.246&amp;zoom=3&amp;level=850h&amp;overlay=wind&amp;menu=&amp;message=&amp;marker=&amp;calendar=&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=&amp;detailLat=46.680&amp;detailLon=-117.246&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1" style="display: block; margin-left: auto;margin-right: auto;" width="250" height="150" frameborder="0"></iframe>
