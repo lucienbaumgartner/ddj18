@@ -119,3 +119,73 @@ q <- ggplot(pdata, aes(x=variable, y=perc, fill=variable)) +
   theme_void
 ggsave(q, filename='plots/shares_duplicates.png', width=15, height=10)
 ggsave(q, filename='~/ddj18/res/plots/shares_duplicates.png', width=15, height=10)
+
+
+
+## missing data
+msd <- sapply(pers[1:length(pers)], 
+              function(x){
+                nope <- length(x[!is.na(x)])
+                n <- length(x[is.na(x)])
+                p <- n/length(x)
+                return(list(n, p, nope))
+                }, 
+              simplify = F) %>% 
+  tibble(perc=sapply(., '[[', 2), 
+         n=sapply(., '[[', 1), 
+         nope=sapply(., '[[', 3),
+         var=names(.)) %>%
+  select(-`.`) %>% 
+  mutate(var=factor(var, levels = var[order(perc, var)]))
+
+q <- ggplot(msd, aes(x=var, y=perc)) +
+  geom_bar(stat='identity') +
+  geom_text(data = msd %>% 
+              filter(perc>0), 
+            aes(label=paste0(nope, ' || ', round(perc*100, 1), '%')),
+            hjust=1.2, color='white') +
+  geom_text(data = msd %>% 
+              filter(perc==0), 
+            aes(label=paste0(nope, ' || ', round(perc*100, 1), '%')),
+            hjust=-0.2,
+            color='black') +
+  theme_void +
+  theme(axis.title = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank()) +
+  coord_flip() +
+  scale_y_continuous(label=percent, expand = c(0,0)) +
+  ggtitle('Shares of NAs for each variable')
+q
+ggsave(q, filename='plots/missing_data.png', width=15, height=10)
+ggsave(q, filename='~/ddj18/res/plots/missing_data.png', width=15, height=10)
+
+library(tidyr)
+dfl <- pblapply(grep('01', list.files(), value=T), function(x){
+  load(x)
+  return(df)
+}) %>% 
+  setNames(., grep('01', list.files(), value=T) %>% 
+             gsub('01-|-clean\\.RData', '', .))
+
+msd_uninfl <- sapply(dfl, function(y) sapply(y[1:length(y)], 
+                   function(x){
+                     nope <- length(x[!is.na(x)])
+                     n <- length(x[is.na(x)])
+                     p <- n/length(x)
+                     return(list(n, p, nope))
+                   }, 
+                   simplify = F)) %>% 
+  unlist(., recursive = F) %>% 
+  tibble(perc=sapply(., '[[', 2), 
+         n=sapply(., '[[', 1), 
+         nope=sapply(., '[[', 3),
+         var=names(.)) %>%
+  select(-`.`) %>% 
+  mutate(var=factor(var, levels = var[order(perc, var)])) %>% 
+  separate(var, c('df', 'var'), '\\.')
+
+msd_uninfl %>% 
+  filter(!perc==0)
+
+table(is.na(dfl[['zuzug']]))

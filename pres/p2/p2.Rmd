@@ -1,0 +1,217 @@
+---
+title: "R-Workflow, Basic Datahandling, Challenges"
+author: "Lucien Baumgartner"
+date: "10/9/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Was machen wir heute?
+
+1. Recap und Fragen
+2. Workflow in R [streamlined!]
+3. `dplyr` Tutorial
+4. Anmerkungen zu den Daten
+    - duplicates
+    - missing data
+    - data inflation
+5. Exkurs: Clustering
+
+# Recap und Fragen
+
+## Recap und Fragen
+- Bootcamps (alle auch auf Olat):
+  - [bc1](https://htmlpreview.github.io/?https://github.com/lucienbaumgartner/ddj18/blob/master/src/bootcamps/bc1.html)
+  - [bc2](https://htmlpreview.github.io/?https://github.com/lucienbaumgartner/ddj18/blob/master/src/bootcamps/bc2.html)
+  - [bc3](https://htmlpreview.github.io/?https://github.com/lucienbaumgartner/ddj18/blob/master/src/bootcamps/bc3.html)
+
+# Streamlined Workflow
+## Streamlined Workflow
+
+```{r, engine = 'bash', eval=F, echo=T}
+project
+      |_src
+          |_00-import-data.R
+          |_01-clean-data.R
+          |_...
+      |_input
+          |_data1.csv
+          |_data2.xls
+          |_...
+      |_output
+          |_plots
+                |_0x-random-plot.png
+                |_...
+          |_00-imported-data.RData
+          |_01-cleaned-data.RData
+          |_...
+      
+```
+
+## Advanced
+
+Use symlinks to your cloud to store data remotely:
+```{r, engine = 'bash', eval=F, echo=T}
+user$ ln -s ~/dropbox/folder/.../ ~/project/output
+```
+
+Danach könnt ihr einfach direkt in den output-Folder speichern 
+
+  -> BABAAM, auf der Dropbox
+  
+Beispiel: https://github.com/lucienbaumgartner/ddj18
+  
+## FOCUS
+
+1. 'Forschungsfrage' / 'Hypothese' / **educated guess**
+2. WAS will ich herausfinden? (und wieso?)
+3. WIE sieht mein Traumresultat aus (statistisch/visuell)?
+4. WAS für Methoden brauche ich, WELCHE Daten kommen dazu infrage?
+5. WIE muss meine Datenstruktur für meine Viz/meine Analysen aussehen? 
+6. WIE erreiche ich, dass meine Daten das gewünschte Format haben? -> workflow: welche steps muss ich durchlaufen
+7. Braucht es Validitäts-checks?
+
+Ihr solltet zu JEDEM ZEITPUNKT des Datenhandlings wissen, was ihr macht, wie eure Daten aussehen, und wie sie aussehen sollen.
+
+## FOCUS
+
+- **missing data** 
+  - bitte schaut genug früh, ob die Variablen, die euch interessieren auch genug Datenpunkte beinhalten ... UND
+  
+- **not enough variance**
+  - genug Varianz aufweisen, sodass eine Analyse überhaupt Sinn macht
+
+# `dyplr` Tutorial
+
+## `dyplr` Tutorial
+
+https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
+
+# Anmerkungen zu den Daten
+
+## Anmerkungen zu den Daten
+
+- Daten haben zwei Aggregations-Levels:
+  - Personen (`persnum-lvl`)
+    - bevoelkerung (main)
+    - umzug
+    - wegzug
+    - zuzug
+  - Gebäude (`geb`)
+    - gebaeude
+    - finanzen
+    - wohnung
+  
+## Konsolidierte Datensätze
+- POS:
+  - Information zentralisiert abrufbar 
+  - weniger rekursives ge-joine -> weniger Fehler (!!!)
+  - besseres Datenverständnis
+    
+- NEG: 
+    - grössere Objekte im Arbeitsspeicher -> SLOW
+    - Fehler beim initialen joinen ziehen sich durch das ganze Projekt
+    
+- Counter: 
+  - Validitäts-checks
+  - einfach parallelisierbar
+  - subsets, subsets, subsets; ABER: Hypothesengeleitet und nicht strukturell bedingt
+
+## Step-by-step
+
+- [Import data](https://github.com/lucienbaumgartner/ddj18/blob/master/src/00-import-data.R)
+
+- [Clean data](https://github.com/lucienbaumgartner/ddj18/blob/master/src/01-clean-data.R)
+
+- [Join data](https://github.com/lucienbaumgartner/ddj18/blob/master/src/02-join-data.R)
+
+## ACHTUNG
+
+- **Personen kommen mehrfach vor**. Wieso? 
+  - Paneldaten: Sie kommen mind. 1x / Jahr vor
+  - Falls sie wegziehen, zuziehen oder umziehen, *können* sie mehrfach vorkommen
+
+- Na und? 
+  - Wenn ihr mit Mehrfachnennungen rechnet, dann müsst ihr das zumindest in der Methodenbox erwähnen
+  - Wenn ihr nicht mit Mehrfachnennungen rechnen möchtet, dann müsst ihr euch überlegen, welche Observation ihr rausfiltert
+  
+## Mehrfachnennungen auf `persnum-lvl`
+
+```{r, out.width = '800px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/n_duplicates.png")
+```
+
+- [script](https://github.com/lucienbaumgartner/ddj18/blob/master/src/03-DISCLAIMER-challenges-pers.R)
+
+## Mehrfachnennungen auf `persnum-lvl`
+
+```{r, out.width = '800px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/shares_duplicates.png")
+```
+
+- [script](https://github.com/lucienbaumgartner/ddj18/blob/master/src/03-DISCLAIMER-challenges-pers.R)
+
+## Missing data: `persnum-lvl` [INFLATED] 
+
+```{r, out.width = '800px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/missing_data.png")
+```
+
+## Missing data: source
+
+```{r, out.width = '500px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/missing_data_source.png")
+```
+
+## Missing data
+
+- [script](https://github.com/lucienbaumgartner/ddj18/blob/master/src/03-DISCLAIMER-challenges-pers.R)
+
+## Exkurs: Clustering
+```{r, out.width = '600px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/clustering.png")
+```
+
+- Das Dataframe wird nach einer Schlüsselvariable auf verschiedene Kerne verteilt, wo jeweils parallel die gleichen Funktionen darüber laufen
+
+- Vorteil: Speed! (NOT IN EVERY CASE, TOUGH)
+
+- Alles, was ihr dafür braucht, ist das package `multidplyr`. 
+
+## Exkurs: Clustering
+
+```{r, out.width = '350px', fig.align='center'}
+knitr::include_graphics("~/ddj18/pres/img/p2/clustering_benchmarking.png")
+```
+
+## Exkurs: Clustering :: Ressourcen
+
+https://www.business-science.io/code-tools/2016/12/18/multidplyr.html
+
+http://blog.aicry.com/multidplyr-dplyr-meets-parallel-processing/index.html
+
+# Ressourcen
+
+## Basics
+
+- [Methodenleitbuch](https://github.com/lucienbaumgartner/ddj18/res/Chair_Uebungsbuch_2015.pdf)
+- [DataCamp R Intro](https://campus.datacamp.com/courses/free-introduction-to-r/chapter-1-intro-to-basics-1?ex=1)
+- [RegexBuddy](https://www.regular-expressions.info/)
+- [dplyr cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [dplyr Intro](https://rpubs.com/justmarkham/dplyr-tutorial)
+- [FT Visual Vocab](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+- [Stack overflow](https://stackoverflow.com/)
+
+## Extended
+
+- [Plot Layouts](https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html)
+- [R Graph Gallery](https://www.r-graph-gallery.com/)
+- [Tidying spatial data](http://strimas.com/r/tidy-sf/)
+- [Working with missing data in area plots](https://mattmazur.com/2017/04/19/removing-gaps-from-stacked-area-charts-in-r/)
+- [plotly for R](https://plotly-book.cpsievert.me/index.html)
+
+- [Little Inspiration (Capstone Website)](https://lucienbaumgartner.github.io/capstone_webdev/)
+
