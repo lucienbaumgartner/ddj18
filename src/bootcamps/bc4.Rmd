@@ -124,7 +124,7 @@ shp <- left_join(shp, rename(kids, id=quarlang))
 dim(shp)
 # the number of rows doubled and we got three additional variables...
 # why? because kids$quarlang contains every district twice (because we grouped by quarlang AND has.kids, and the latter has 2 distinct values (0,1))
-# the three addtional variables are all other var in kids (those are the reason why we actually joined the data...)
+# the addtional variables are all other var in kids (those are the reason why we actually joined the data...)
 # since we will only plot the share of the pop who has children, we can drop all the others and directly proceed to the plotting
 kp <- shp %>% 
   filter(has.kids==1) %>% 
@@ -161,33 +161,39 @@ centroids <- centroids[order(shp.raw@data$QNAME),]
 
 # join points to the shp via QNAME
 kids <- left_join(kids,
-          cbind(as_tibble(centroids), 
-                as.character(shp.raw@data$QNAME)[order(shp.raw@data$QNAME)]) %>% 
-            setNames(., c('long.c', 'lat.c', 'quarlang')),
-          by='quarlang')
+                  # add district names to centroids
+                  cbind(as_tibble(centroids), 
+                        as.character(shp.raw@data$QNAME)[order(shp.raw@data$QNAME)]) %>% 
+                    setNames(., c('long.c', 'lat.c', 'quarlang')),
+                  by='quarlang')
 # add everything to the plot
 kp <- kp +
+  # centroids
   geom_point(data=filter(kids, has.kids==1&median.p>.2), 
              aes(x=long.c, y=lat.c),
              color='white') +
-  geom_text_repel(data=filter(kids, has.kids==1&quarlang%in%c('Friesenberg', 'Leimbach')), 
-            aes(x=long.c, y=lat.c, label=paste0(quarlang,
-                                                '\n',
-                                                format(round(median.p*100,1), digits = 1),
-                                                '%')
-                ),
-            nudge_y = -1000, 
-            nudge_x = -2000, 
-            size=5, 
-            segment.size = 0.2, 
-            color='white', 
-            family='Source Code Pro') +
+  # text label for Leimbach and Friesenberg
+  geom_text_repel(data=filter(kids, has.kids==1&quarlang%in%c('Friesenberg', 'Leimbach')),
+                  aes(x=long.c, y=lat.c, label=paste0(quarlang,
+                                                      '\n',
+                                                      format(round(median.p*100,1), digits = 1),
+                                                      '%')
+                      ),
+                  # some additional repel and viz parameters
+                  nudge_y = -1000, 
+                  nudge_x = -2000, 
+                  size=5, 
+                  segment.size = 0.2, 
+                  color='white', 
+                  family='Source Code Pro') +
+  # text label for Saatlen
   geom_text_repel(data=filter(kids, has.kids==1&quarlang%in%c('Saatlen')), 
                   aes(x=long.c, y=lat.c, label=paste0(quarlang,
                                                       '\n',
                                                       format(round(median.p*100,1), digits = 1),
                                                       '%')
                       ),
+                  # some additonal repel and viz parameters
                   nudge_y = 1000, 
                   nudge_x = 2000, 
                   size=5, 
