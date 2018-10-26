@@ -1,0 +1,199 @@
+---
+title: "Bootcamp 4: Chloropleth maps"
+author: "Lucien Baumgartner"
+date: "10/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=F)
+```
+
+```{css echo=F}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+  background-color:white;
+}
+
+pre.r{
+  background-color:black;
+  color:white;
+}
+```
+
+
+Okay, let's go down to business. In this bootcamp, we will produce a chloroppleth map. The starting point is the following question:
+
+__Which districts have a lot of households with children?__
+
+I will first paraphrase this question to:
+
+__What is the median number of children (per household) per district over the last 5 years?__
+
+We will see that the answer to this question is simple: zero. Why? Singles kinda rule I guess.
+
+Hence, I rephrase the whole thing to:
+
+__What is the median share of households with children per district over the last 5 years?__
+
+This should serve a reminder: even if your initial idea is stupid, think about it differently (think about *maximizing variance*), and try again.
+
+The following script includes my whole workflow, including some exploratory stuff, just so that you see how I'd go about.
+
+```{r fig.align='center', fig.width=12, fig.height=12}
+library(dplyr) # data crunching
+library(ggplot2) # plots
+library(rgdal) # geodata handling
+library(viridis) # color scale for lazy people
+library(ggrepel) # text label repel
+library(extrafont) # different fonts
+
+# clean workspace
+rm(list=ls())
+
+# all the registered fonts
+fonts()
+
+# load custom functions available at: https://github.com/lucienbaumgartner/r-helpers
+source('~/r-helpers/ggplot/ggplot-helper.R')
+
+# set WD
+setwd('~/ddj18/output/')
+
+# load pop data
+load('01-bevoelkerung-clean.RData')
+str(df)
+
+# load shapefile
+shp.raw <- readOGR('~/ddj18/input/st-zh/shapefile/Quartier_Shapefile/', layer = 'StatistischesQuartier')
+
+# inspect shp meta info
+str(shp.raw@data)
+# we have both kreis and distritict vars!
+# this means we will have to join the data by one of the two
+
+## let's compute the median number of children over the last 5 years per district
+# number of obs per district
+table(df$quarlang)
+# number of obs per district in the last five years
+df %>% 
+  filter(stichtagdatjahr%in%2012:2017) %>% 
+  group_by(quarlang) %>% 
+  summarise(n=n()) %>% 
+  print(n=100)
+
+# actual stuff that we are interested in:
+df %>% 
+  filter(stichtagdatjahr%in%2012:2017) %>% 
+  summarise(n.kids=median(anzahlkinder)) %>% 
+  print(n=100)
+# ... mmh okay.. that's kinda stupid to plot...
+# let's compute the share of household with more than 1 kid per district over the last 5 years instead...
+kids <- df %>% mutate(has.kids=ifelse(anzahlkinder>0,1,0)) %>% 
+  filter(stichtagdatjahr%in%2012:2017) %>% 
+  group_by(quarlang, stichtagdatjahr, has.kids) %>% 
+  summarise(n=n()) %>%
+  mutate(p=n/sum(n)) %>% 
+  ungroup %>% 
+  group_by(quarlang, has.kids) %>% 
+  summarise(median.p=median(p)) %>% 
+  print(n=100)
+# already looks more promising
+
+# now we have to check whether the names of the districts in shp actually match those in the data!!!
+table(unique(shp.raw$QNAME)%in%unique(kids$quarlang))
+# yep! this makes everything a lot easier!
+
+## now let's join the data to the shp
+# since we work with ggplot, and we don't do super fancy stuff with geodata, we just coerce the shp to a dataframe
+class(shp.raw)
+shp <- fortify(shp.raw, region='QNAME') # use QNAME as region (otherwise it will be dropped)
+class(shp)
+# dims before join
+dim(shp)
+# join; NOTE: use a left join!!!
+# shp$region is now shp$id; to join we will have to rename kids$quarlang to kids$id
+shp <- left_join(shp, rename(kids, id=quarlang))
+# dims after join
+dim(shp)
+# the number of rows doubled and we got three additional variables...
+# why? because kids$quarlang contains every district twice (because we grouped by quarlang AND has.kids, and the latter has 2 distinct values (0,1))
+# the three addtional variables are all other var in kids (those are the reason why we actually joined the data...)
+# since we will only plot the share of the pop who has children, we can drop all the others and directly proceed to the plotting
+kp <- shp %>% 
+  filter(has.kids==1) %>% 
+  ggplot(.) + # feed the subset to the ggplot
+  geom_polygon(aes(x=long, y=lat, group=group, fill=median.p),
+               color='white',
+               size=0.2) + # plot the polygon and fill it with the percentages
+  coord_equal() + # make x and y equistant
+  scale_fill_viridis(option = 'D', name='Percentage',  label=scales::percent) +
+  labs(title='Median share of households with kids over the last 5 years per district',
+    subtitle='Some additional blahblah explaining some very interesting stuff'
+    ) +
+  # get rid of the background, axis, grids, etc, and add title and subtitle spacing
+  theme_empty(
+    title.spacing = 10,
+    subtitle.spacing = 10
+  ) +
+  # add another background, change text color
+  theme(
+    plot.background = element_rect(fill='black'),
+    legend.background = element_rect(fill='black'),
+    text = element_text(colour='white', family = 'Source Code Pro'),
+    plot.title = element_text(size=17),
+    plot.subtitle = element_text(size=15),
+    legend.title = element_text(size=15),
+    legend.text = element_text(size=12)
+  )
+kp
+  
+# now we would like to show the reader in which people with kids add up to 20% of the district pop
+# for that we need to compute the anker of the annotation: in this case the district polgyon centroids
+centroids <- getSpPPolygonsLabptSlots(shp.raw)
+centroids <- centroids[order(shp.raw@data$QNAME),]
+
+# join points to the shp via QNAME
+kids <- left_join(kids,
+          cbind(as_tibble(centroids), 
+                as.character(shp.raw@data$QNAME)[order(shp.raw@data$QNAME)]) %>% 
+            setNames(., c('long.c', 'lat.c', 'quarlang')),
+          by='quarlang')
+# add everything to the plot
+kp <- kp +
+  geom_point(data=filter(kids, has.kids==1&median.p>.2), 
+             aes(x=long.c, y=lat.c),
+             color='white') +
+  geom_text_repel(data=filter(kids, has.kids==1&quarlang%in%c('Friesenberg', 'Leimbach')), 
+            aes(x=long.c, y=lat.c, label=paste0(quarlang,
+                                                '\n',
+                                                format(round(median.p*100,1), digits = 1),
+                                                '%')
+                ),
+            nudge_y = -1000, 
+            nudge_x = -2000, 
+            size=5, 
+            segment.size = 0.2, 
+            color='white', 
+            family='Source Code Pro') +
+  geom_text_repel(data=filter(kids, has.kids==1&quarlang%in%c('Saatlen')), 
+                  aes(x=long.c, y=lat.c, label=paste0(quarlang,
+                                                      '\n',
+                                                      format(round(median.p*100,1), digits = 1),
+                                                      '%')
+                      ),
+                  nudge_y = 1000, 
+                  nudge_x = 2000, 
+                  size=5, 
+                  segment.size = 0.2, 
+                  color='white', 
+                  family='Source Code Pro')
+kp
+```
+
