@@ -28,7 +28,7 @@ pre.r{
 ```
 
 
-Okay, let's go down to business. In this bootcamp, we will produce a chloroppleth map. The starting point is the following question:
+Okay, let's get down to business. In this bootcamp, we will produce a chloropleth map. The starting point is the following question:
 
 __Which districts have a lot of households with children?__
 
@@ -44,7 +44,7 @@ __What is the median share of households with children per district over the las
 
 This should serve a reminder: even if your initial idea is stupid, think about it differently (think about *maximizing variance*), and try again.
 
-The following script includes my whole workflow, including some exploratory stuff, just so that you see how I'd go about.
+The following script includes my whole workflow, including some exploratory stuff, just so that you see how I approached the whole thing.
 
 ```{r fig.align='center', fig.width=12, fig.height=12}
 library(dplyr) # data crunching
