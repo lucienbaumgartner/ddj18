@@ -1,0 +1,137 @@
+---
+title: 'Bootcamp 6: Area plots'
+author: "Lucien Baumgartner"
+date: "10/30/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css echo=F}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+pre.html{
+  background-color:white;
+}
+
+pre.r{
+  background-color:black;
+  color:white;
+}
+```
+
+NOTE: Old script from last year.
+
+The important part is the `expand.grid()` function.
+
+```{r fig.align='center', fig.width=12, fig.height=10}
+library(ggplot2)
+library(dplyr)
+library(scales)
+
+setwd("~/ddj18/output/")
+
+rm(list=ls())
+
+load('01-bevoelkerung-clean.RData')
+
+jx <- df %>% 
+  filter(!alterv05kurz %in% c('0-4', '5-9', '10-14', '15-19')) %>% # U18-jährige rausfiltern
+  group_by(stichtagdatjahr,geblandhistlang, ziv2lang) %>% # wir gruppieren dan den Aggregationsvariablen
+  summarise(n_grp=n()) %>% # Berechnung der ANZAHL Personen mit Zivstatus X in Land X im Jahr X
+  mutate(n_total=sum(n_grp), # Total berechnen; 100% = Alle Personen aus Land X im Jahr X
+         perc=n_grp/n_total) %>%  # Anteile berechnen
+  ungroup
+jx
+
+# gewisse Länder haben in gewissen Jahren 0 Beobachtungen für Zivstatus X
+# Daher bilden wir ein fiktives Datenset, das alle möglichen Wertkombinationen der Aggregationsvariablen enthält:
+jgrid <- expand.grid(stichtagdatjahr=unique(jx$stichtagdatjahr), 
+                     geblandhistlang=unique(jx$geblandhistlang), 
+                     ziv2lang=unique(jx$ziv2lang))
+# danach 'mergen' wir das Set mit allen möglichen Kombinationen mit den tatsächlichen Werten
+# Wieso? Alle Kombinationen die im echten Datenset nicht vorkommen werden NA's bekommen für 
+# Anzahl, Total und Prozente
+jx <- full_join(jgrid, jx)
+
+# diese NA's ersetzen wir durch Nullen -> das brauchen wir für die Area Plots, da sonst Löcher entstehen!
+jx <- mutate_at(jx, c('n_grp', 'n_total', 'perc'), function(x){ifelse(is.na(x), 0, x)})
+
+# Disclaimer: Diese Schritte sind eigentlich nicht mehr nötig, das wir eh nur Länder betrachten, die 
+# jährlich mehr als 400 Beobachtungen haben; habs trotzdem drin gelassen
+
+
+## Plot 1
+# Wir machen einen Vektor, der die Herkunftsländer nach der grössten Summe von Geschiedenen über die Zeit ordnet
+# brauchen wir, um die Facets im Plot danach zu ordnen
+lvls <- jx %>% filter(ziv2lang=='Geschieden') %>% # nur Geschiedene
+  # alle diese Länder wollen wir nicht:
+  filter(!geblandhistlang %in% c("Bosnien und Herzegowina",
+                                 "Mazedonien",
+                                 "Serbien", 
+                                 "Serbien, Montenegro, Kosovo",
+                                 "Afrika",
+                                 "Asien",
+                                 "Amerika",
+                                 "Niederlande", 
+                                 "Österreich",
+                                 "Ozeanien",
+                                 "Unzuteilbar",
+                                 "Kroatien",
+                                 "Italien",
+                                 "Europa"),
+         !is.na(ziv2lang)) %>% #keine NA's!
+  group_by(geblandhistlang, ziv2lang) %>% # aggregieren
+  summarise(x=sum(perc)) %>% # Summe der Anteile geschiedener Personen berechnen
+  arrange(desc(x)) %>% # absteigend anornden
+  select(geblandhistlang) %>% # nur Länder isolieren
+  unlist # zu Vektor transformieren
+
+q <- jx %>% 
+  # die folgenden 2 Levels wollen wir nicht in der Zivstand Variable
+  mutate(ziv2lang=ifelse(ziv2lang=="Aufgelöste Partnerschaft", NA, ziv2lang), 
+         ziv2lang=ifelse(ziv2lang=="Unbekannt", NA, ziv2lang)) %>%
+  # diese Länder uch nicht
+  filter(!geblandhistlang %in% c("Bosnien und Herzegowina",
+                                 "Mazedonien",
+                                 "Serbien", 
+                                 "Serbien, Montenegro, Kosovo",
+                                 "Afrika",
+                                 "Asien",
+                                 "Amerika",
+                                 "Niederlande", 
+                                 "Österreich",
+                                 "Ozeanien",
+                                 "Unzuteilbar",
+                                 "Kroatien",
+                                 "Italien",
+                                 "Europa"),
+         !is.na(ziv2lang)) %>% # NA's auch nichz
+  mutate(geblandhistlang=factor(geblandhistlang, levels=lvls))  %>% # wir machen Zivstatus zum Faktor; Levels nach dem gebildeten Vektor geordnet
+  
+  # Plot:
+  ggplot(., aes(x=stichtagdatjahr, y=perc, fill=ziv2lang, group=ziv2lang)) +
+  geom_area(position = "stack") +
+  scale_fill_manual(values=c('firebrick1','dodgerblue', 'dodgerblue4', 'gold1', 'darkgrey'),
+                    name='Zivilstand') +
+  labs(caption='(XXX; Politischer Datenjournalismus XXX)',
+       title="Immer weniger Verheiratete in der Stadt Zürich",
+       subtitle="Anteil Personen mit Zivilstand x über die Zeit, nach Geburtsland") +
+  scale_x_continuous(breaks=c(1993, 2000, 2010, 2016)) +
+  scale_y_continuous(labels=percent) +
+  facet_wrap(~geblandhistlang, nrow = 5, ncol = 3) +
+  theme(panel.background = element_blank(),
+        text = element_text(size=15),
+        plot.title = element_text(face='bold')) +
+  ylab('Anteil') +
+  xlab('Jahr') 
+q # plot printen
+```
+
