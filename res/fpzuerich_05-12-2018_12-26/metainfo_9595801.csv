@@ -1,0 +1,4 @@
+INDIKATOR_ID;INDIKATOR_NAME;EINHEIT_LANG;QUELLE;BESCHREIBUNG;
+1;Einheit;null;Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS);GEFIS-Einheit, eindeutiger Code (Primärschlüssel) der öffentlich-rechtlichen Körperschaft;
+2;Gemeindeart;null;Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS);Art der öffentlich-rechtlichen Körperschaft. Die Gemeindeart zeigt, ob es sich bei der Körperschaft um eine politische Gemeinde, eine Schulgemeinde, einen Zweckverband oder eine Anstalt handelt.;
+3;BFS-Nr. / SGEM;null;Bundesamt für Statistik BFS, Bildungsstatistik Kanton Zürich (BISTA);Schulgemeinde Code (SGEM) gemäss BISTA bei Schulgemeinden oder Amtliche Gemeindenummer (BFS-Nr.) bei Politischen Gemeinden gemäss amtlichem Gemeindeverzeichnis des Bundesamtes für Statistik BFS;

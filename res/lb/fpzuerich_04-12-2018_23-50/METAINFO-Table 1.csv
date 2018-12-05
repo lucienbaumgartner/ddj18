@@ -1,0 +1,674 @@
+INDIKATOR_ID,INDIKATOR_NAME,EINHEIT_LANG,QUELLE,BESCHREIBUNG
+1196,62x Gemeindestrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindestrassen
+1197,63x Privatstrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Privatstrassen
+1198,64x Bundesbahnen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bundesbahnen
+1199,65x Regionalverkehr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Regionalverkehr
+1200,66x Schifffahrt [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schifffahrt
+1201,700 Wasserversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Wasserversorgung
+1202,701-709 Wasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Wasser
+1203,71x Abwasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abwasser
+1204,72x Abfall [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abfall
+1205,73x Schlachthöfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schlachthöfe
+1206,74x Friedhöfe und Bestattungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Friedhöfe und Bestattungen
+1207,75x Gewässerunterhalt und -verbauungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gewässerunterhalt und -verbauungen
+1208,77x Naturschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Naturschutz
+1209,78x Übriger Umweltschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für übriger Umweltschutz
+1210,79x Raumplanung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Raumordnung
+1211,80x Landwirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Landwirtschaft
+1212,81x Forstwesen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Forstwesen
+1213,82x Jagd und Fischerei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Jagd und Fischerei
+1214,"83x Tourismus, kommunale Werbung [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Tourismus, kommunale Werbung"
+1215,"84x Beiträge Industrie, Gewerbe, Handel [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Beiträge Industrie, Gewerbe, Handel"
+1216,860 Energieversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Energieversorgung
+1217,861 Elektrizitätswerk - Elektrizitätsnetz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Elektrizitätswerk - Elektrizitätsnetz
+1218,862 Gasversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gasversorgung
+1219,863 Fernwärme [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Fernwärme
+1220,864 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1221,865 Elektrizitätswerk - Stromhandel und Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Elektrizitätswerk - Stromhandel und Übriges
+1397,"866 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+1398,"867 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+1399,"868 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+1222,"869 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+1223,87x Sonstige Gemeindebetriebe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für sonstige Gemeindebetriebe
+1224,90x Gemeindesteuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindesteuern
+1225,92x Finanzausgleich [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Finanzausgleich
+1226,93x Einnahmenanteile [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Einnahmenanteile
+1227,940 Kapitaldienst [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kapitaldienst
+1228,941 Buchgewinne und -verluste [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Buchgewinne und -verluste
+1229,942 Grundeigentum Finanzvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Grundeingentum Finanzvermögen
+1230,943 Gutsbetriebe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gutsbetriebe
+1231,990 Abschreibungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abschreibungen
+1400,994 Sammelkredit (nur Voranschlag) [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwand für Sammelkredit (nur Voranschlag)
+1232,995 Neutrale Aufwendungen und Ertrage [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für neutrale Aufwendungen und Ertäge
+1401,996 Neubewertung Grundeigentum FV [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwand für Neubewertung Grundeigentum Finanzvermögen
+1233,997 Abschluss Zweckverband [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss Zweckverbände
+1234,998 Einnahmenüberschüsse der IR [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Einnahmenüberschüsse der Investitionsrechnung
+1235,999 Abschluss [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss
+1236,50 Sachgüter [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Sachgüter
+1237,52 Darlehen und Beteiligungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Darlehen und Beteiligungen
+1238,56 Investitionsbeiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Investitionsbeiträge
+1239,57 Durchlaufende Beiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für durchlaufende Beiträge
+1240,58 Übrige zu aktivierende Ausgaben [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für übrige zu aktivierende Ausgaben
+1241,59 Passivierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Passivierungen
+1242,60 Abgang von Sachgütern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Sachgütern
+1243,61 Nutzungsabgaben und Vorteilsentgelte [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Nutzungsabgaben und Vorteilsentgelte
+1244,62 Rückzahlung von Darlehen und Beteiligungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Darlehen und Beteilgungnen
+1245,63 Rückerstattungen für Sachgüter [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Rückerstattungen für Sachgütern
+1246,64 Rückzahlung von Investitionsbeiträgen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Rückzahlungen von Investitionsbeiträgen
+1247,66 Beiträge für eigene Rechnung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Beiträgen für eigene Rechnung
+1248,67 Durchlaufende Beiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus durchlaufenden Beiträgen
+1249,69 Aktivierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aktivierungen
+1250,70 Grundeigentum  [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Grundeigentum Finanzvermögen
+1251,71 Zugänge Mobilien [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Mobilien Finanzvermögen
+1252,79 Übertragungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Übertragungen
+1253,80 Grundeigentum Finanzvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Grundeigentum Finanzvermögen
+1254,81 Abgänge Mobilien [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Mobilien Finanzvermögen
+1255,89 Übertragungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Übertragungen
+1256,0 Nettoinvestitionen Behörden und allg. Verwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Behörden und allgemeine Verwaltung
+1257,1 Nettoinvestitionen Rechtschutz und Sicherheit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Rechtschutz und Sicherheit
+1258,2 Nettoinvestitionen Bildung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Bildung
+1259,3 Nettoinvestitionen Kultur und Freizeit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Kultur und Freizeit
+1260,4 Nettoinvestitionen Gesundheit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Gesundheit
+1261,5 Nettoinvestitionen Soziale Wohlfahrt [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Soziale Wohlfahrt
+1262,6 Nettoinvestitionen Verkehr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Verkehr
+1263,7 Nettoinvestitionen Umwelt und Raumordnung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Umwelt und Raumordnung
+1264,8 Nettoinvestitionen Volkswirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Volkswirtschaft
+1396,9 Nettoinvestitionen Finanzen und Steuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen Finanzen und Steuern
+1265,011 Legislative [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Legislative
+1266,012 Exekutive [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Exekutive
+1267,02x Gemeindeverwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gemeindeverwaltung
+1268,03x Leistungen für Pensionierte [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Leistungen für Pensionierte
+1269,09x Verwaltungsliegenschaften [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Verwaltungsliegenschaften
+1270,10x Rechtspflege [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Rechtspflege
+1271,11x Polizei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Polizei
+1272,12x Rechtssprechung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Rechtssprechung
+1273,13x [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1274,14x Feuerwehr und Feuerpolizei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Feuerwehr und Feuerpolizei
+1275,15x Militär [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Militär
+1276,16x Zivilschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Zivilschutz
+1277,200-209 Kindergarten / Grundstufe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kindergarten / Grundstufe
+1278,210 Primarschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Primarschule
+1279,211 Oberstufenschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Oberstufenschule
+1280,212 Tagesschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Tagesschule
+1281,213 Tagesstrukturen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Tagesstrukturen
+1282,214 Musikschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Musikschule
+1283,215 Handarbeit und Hauswirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Handarbeit
+1284,216 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1285,217 Schulliegenschaften [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulliegenschaften
+1286,218 Volksschule Sonstiges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Volksschule Sonstiges
+1287,219 Schulverwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulverwaltung
+1288,220-229 Sonderschulung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sonderschulung
+1289,230-239 Berufsbildung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Berufsbildung
+1290,240-249 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1291,250-259 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1292,260-269 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1293,270-279 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1294,280-289 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1296,29x Bildungswesen Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Bildungswesen Übriges
+100,30 Personalaufwand [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Personalaufwand
+101,31 Sachaufwand [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Sachaufwand
+102,32 Passivzinsen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Passivzinsen
+103,33 Abschreibungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Abschreibungen
+104,34 Anteile und Beiträge ohne Zweckbindung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Anteile und Beiträge ohne Zweckbindung
+105,35 Entschädigung an Gemeinwesen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Entschädigungen an Gemeinwesen
+106,36 Eigene Beiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für eigenen Beiträge
+107,37 Durchlaufende Beiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für durchlaufende Beiträge
+108,38 Einlagen in Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Einlagen in Spezialfinanzierungen
+109,39 Interne Verrechnungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für interne Verrechnungen
+111,40 Steuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Steuererträge
+112,41 Regalien und Konzessionen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Regalien und Konzessionen
+113,42 Vermögenserträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Vermögenserträge
+114,43 Entgelte [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Entgelten
+115,44 Anteile und Beiträge ohne Zweckbindung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Beiträgen ohne Zweckbindung
+116,45 Rückerstattungen von Gemeinwesen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Rückerstattungen von Gemeinwesen
+117,46 Beiträge mit Zweckbindung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Beiträgen mit Zweckbindung
+118,47 Durchlaufende Beiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus durchlaufenden Beiträgen
+119,48 Entnahmen aus Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Entnahmen aus Spezialfinanzierungen
+120,49 Interne Verrechnungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus internen Verrechnungen
+121,91 Ertragsüberschuss (+) / Aufwandüberschuss (-) [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Jahresergebnis Erfolgsrechnung. Ertragsüberschuss (positives Vorzeichen) oder Aufwandüberschuss (negatives Vorzeichen)
+122,0 Nettoaufwendungen Behörden und allg. Verwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Behörden und allgemeine Verwaltung
+123,1 Nettoaufwendungen Rechtschutz und Sicherheit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtschutz und Sicherheit
+124,2 Nettoaufwendungen Bildung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bildung
+125,3 Nettoaufwendungen Kultur und Freizeit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kultur und Freizeit
+126,4 Nettoaufwendungen Gesundheit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gesundheit
+127,5 Nettoaufwendungen Soziale Wohlfahrt [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für soziale Wohlfahrt
+128,6 Nettoaufwendungen Verkehr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Verkehr
+129,7 Nettoaufwendungen Umwelt und Raumordnung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Umwelt und Raumordnung
+130,8 Nettoaufwendungen Volkswirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Volkswirtschaft
+131,9 Nettoaufwendungen Finanzen und Steuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Finanzen und Steuern
+132,011 Legislative [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Legislative
+133,012 Exekutive [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Exekutive
+134,02x Gemeindeverwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindeverwaltung
+135,03x Leistungen für Pensionierte [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Leistungen für Pensionierte
+136,09x Verwaltungsliegenschaften [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Verwaltungsliegenschaften
+137,10x Rechtspflege [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtspflege
+138,11x Polizei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Polizei
+139,12x Rechtssprechung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtssprechung
+140,13x [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+141,14x Feuerwehr und Feuerpolizei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Feuerwehr und Feuerpolizei
+142,15x Militär [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Militär
+143,16x Zivilschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Zivilschutz
+144,200-209 Kindergarten / Grundstufe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kindergarten / Grundstufe
+145,210 Primarschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Primarschule
+146,211 Oberstufenschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Oberstufenschule
+147,212 Tagesschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Tagesschule
+148,213 Tagesstrukturen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Tagesstrukturen
+149,214 Musikschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Musikschule
+150,215 Handarbeit und Hauswirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Handarbeit
+151,216 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+152,217 Schulliegenschaften [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulliegenschaften
+153,218 Volksschule Sonstiges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Volksschule Sonstiges
+154,219 Schulverwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulverwaltung
+155,220-229 Sonderschulung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sonderschulung
+156,230-239 Berufsbildung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Berufsbildung
+157,240-249 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+158,250-259 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+159,260-269 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+160,270-279 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+161,280-289 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+163,29x Bildungswesen Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bildungswesen Übriges
+164,30x Kulturförderung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kulturförderung
+165,"31x Denkmalpflege, Heimatschutz [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Denkmalpflege, Heimatschutz"
+166,32x Massenmedien [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Massenmedien
+167,"33x Parkanlagen, Wanderwege [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Parkanlagen, Wanderwege"
+168,34x Sport [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sport
+169,35x Übrige Freizeit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für übrige Freizeit
+170,39x Kirche [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kirche
+171,40x Spitäler [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Spitäler
+172,41x Kranken- und Pflegeheime [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kranken- und Pflegeheime
+173,42x/3x [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+174,44x Ambulante Krankenpflege [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für ambulante Krankenpflege
+175,45x Krankheitsbekämpfung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Krankheitsbekämpfung
+176,46x Schulgesundheitsdienst [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulgesundheitsdienst
+177,47x Lebensmittelkontrolle [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Lebensmittelkontrolle
+178,49x Gesundheitswesen Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gesundheitswesen Übriges
+179,50x Sozialversicherungen Allgemeines [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sozialversicherungen Allgemeines
+180,52x Krankenversicherungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Krankenversicherungen
+181,53x Zusatzleistungen AHV/IV [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Zusatzleistungen AHV/IV
+182,54x Jugend [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Jugend
+183,55x Invalidität [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Invalidität
+184,56x Sozialer Wohnungsbau [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für sozialer Wohnungsbau
+185,57x Altersheime [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Altersheime
+186,580 Gesetzliche wirtschaftliche Hilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für gesetzliche wirtschaftliche Hilfe
+187,581 Freiwillige wirtschaftliche Hilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für freiwillige wirtschaftliche Hilfe
+188,582 Arbeitslosenhilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Arbeitslosenunterstützung
+189,583-585 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+190,586 Beschäftigungsprogramm für Arbeitslose [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Arbeitsprogramme für Arbeitslose
+191,587 Betreuung Suchtabhängiger [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Betreuung Suchtabhängiger
+192,588 Asylbewerberbetreuung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Asylbewerberbetreuung
+193,589 Soziale Wohlfahrt Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für soziale Wohlfahrt Übriges
+194,59x Hilfsaktionen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Hilfsaktionen
+195,61x Staatsstrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Staatsstrassen
+196,62x Gemeindestrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindestrassen
+197,63x Privatstrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Privatstrassen
+198,64x Bundesbahnen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bundesbahnen
+199,65x Regionalverkehr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Regionalverkehr
+200,66x Schifffahrt [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schifffahrt
+201,700 Wasserversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Wasserversorgung
+202,701-709 Wasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Wasser
+203,71x Abwasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abwasser
+204,72x Abfall [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abfall
+205,73x Schlachthöfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schlachthöfe
+206,74x Friedhöfe und Bestattungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Friedhöfe und Bestattungen
+207,75x Gewässerunterhalt und -verbauungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gewässerunterhalt und -verbauungen
+208,77x Naturschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Naturschutz
+209,78x Übriger Umweltschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für übriger Umweltschutz
+210,79x Raumplanung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Raumordnung
+211,80x Landwirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Landwirtschaft
+212,81x Forstwesen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Forstwesen
+213,82x Jagd und Fischerei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Jagd und Fischerei
+214,"83x Tourismus, kommunale Werbung [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Tourismus, kommunale Werbung"
+215,"84x Beiträge Industrie, Gewerbe, Handel [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Beiträge Industrie, Gewerbe, Handel"
+216,860 Energieversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Energieversorgung
+217,861 Elektrizitätswerk - Elektrizitätsnetz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Elektrizitätswerk - Elektrizitätsnetz
+218,862 Gasversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gasversorgung
+219,863 Fernwärme [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Fernwärme
+220,864 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+221,865 Elektrizitätswerk - Stromhandel und Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Elektrizitätswerk - Stromhandel und Übriges
+397,"866 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+398,"867 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+399,"868 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+222,"869 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Energie, Übriges"
+223,87x Sonstige Gemeindebetriebe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für sonstige Gemeindebetriebe
+224,90x Gemeindesteuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindesteuern
+225,92x Finanzausgleich [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Finanzausgleich
+226,93x Einnahmenanteile [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Einnahmenanteile
+227,940 Kapitaldienst [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kapitaldienst
+228,941 Buchgewinne und -verluste [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Buchgewinne und -verluste
+229,942 Grundeigentum Finanzvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Grundeingentum Finanzvermögen
+230,943 Gutsbetriebe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gutsbetriebe
+231,990 Abschreibungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Abschreibungen
+400,994 Sammelkredit (nur Voranschlag) [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",
+232,995 Neutrale Aufwendungen und Ertrage [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für neutrale Aufwendungen und Ertäge
+401,996 Neubewertung Grundeigentum FV [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",
+233,997 Abschluss Zweckverband [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss Zweckverbände
+234,998 Einnahmenüberschüsse der IR [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Einnahmenüberschüsse der Investitionsrechnung
+235,999 Abschluss [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss
+236,50 Sachgüter [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Sachgüter
+237,52 Darlehen und Beteiligungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Darlehen und Beteiligungen
+238,56 Investitionsbeiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Investitionsbeiträge
+239,57 Durchlaufende Beiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für durchlaufende Beiträge
+240,58 Übrige zu aktivierende Ausgaben [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für übrige zu aktivierende Ausgaben
+241,59 Passivierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Passivierungen
+242,60 Abgang von Sachgütern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Sachgütern
+243,61 Nutzungsabgaben und Vorteilsentgelte [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Nutzungsabgaben und Vorteilsentgelte
+244,62 Rückzahlung von Darlehen und Beteiligungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Darlehen und Beteiligungen
+245,63 Rückerstattungen für Sachgüter [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Rückerstattungen für Sachgüter
+246,64 Rückzahlung von Investitionsbeiträgen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Rückzahlungen von Investitionsbeiträgen
+247,66 Beiträge für eigene Rechnung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Beiträgen für eigene Rechnung
+248,67 Durchlaufende Beiträge [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus durchlaufenden Beiträgen
+249,69 Aktivierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aktivierungen
+250,70 Grundeigentum  [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Grundeigentum Finanzvermögen
+251,71 Zugänge Mobilien [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionsausgaben für Mobilien Finanzvermögen
+252,79 Übertragungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Übertragungen
+253,80 Grundeigentum Finanzvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Grundeigentum Finanzvermögen
+254,81 Abgänge Mobilien [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Investitionseinnahmen aus Mobilien Finanzvermögen
+255,89 Übertragungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Übertragungen
+256,0 Nettoinvestitionen Behörden und allg. Verwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Behörden und allgemeine Verwaltung
+257,1 Nettoinvestitionen Rechtschutz und Sicherheit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Rechtschutz und Sicherheit
+258,2 Nettoinvestitionen Bildung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Bildung
+259,3 Nettoinvestitionen Kultur und Freizeit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Kultur und Freizeit
+260,4 Nettoinvestitionen Gesundheit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Gesundheit
+261,5 Nettoinvestitionen Soziale Wohlfahrt [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Soziale Wohlfahrt
+262,6 Nettoinvestitionen Verkehr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Verkehr
+263,7 Nettoinvestitionen Umwelt und Raumordnung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Umwelt und Raumordnung
+264,8 Nettoinvestitionen Volkswirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Volkswirtschaft
+396,9 Nettoinvestitionen Finanzen und Steuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen Finanzen und Steuern
+265,011 Legislative [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Legislative
+266,012 Exekutive [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Exekutive
+267,02x Gemeindeverwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gemeindeverwaltung
+268,03x Leistungen für Pensionierte [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Leistungen für Pensionierte
+269,09x Verwaltungsliegenschaften [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Verwaltungsliegenschaften
+270,10x Rechtspflege [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Rechtspflege
+271,11x Polizei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Polizei
+272,12x Rechtssprechung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Rechtssprechung
+273,13x [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+274,14x Feuerwehr und Feuerpolizei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Feuerwehr und Feuerpolizei
+275,15x Militär [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Militär
+276,16x Zivilschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Zivilschutz
+277,200-209 Kindergarten / Grundstufe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kindergarten / Grundstufe
+278,210 Primarschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Primarschule
+279,211 Oberstufenschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Oberstufenschule
+280,212 Tagesschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Tagesschule
+281,213 Tagesstrukturen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Tagesstrukturen
+282,214 Musikschule [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Musikschule
+283,215 Handarbeit und Hauswirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Handarbeit
+284,216 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+285,217 Schulliegenschaften [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulliegenschaften
+286,218 Volksschule Sonstiges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Volksschule Sonstiges
+287,219 Schulverwaltung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulverwaltung
+288,220-229 Sonderschulung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sonderschulung
+289,230-239 Berufsbildung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Berufsbildung
+290,240-249 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+291,250-259 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+292,260-269 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+293,270-279 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+294,280-289 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+296,29x Bildungswesen Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Bildungswesen Übriges
+297,30x Kulturförderung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kulturförderung
+298,"31x Denkmalpflege, Heimatschutz [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Denkmalpflege, Heimatschutz"
+299,32x Massenmedien [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Massenmedien
+300,"33x Parkanlagen, Wanderwege [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Parkanlagen, Wanderwege"
+301,34x Sport [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sport
+302,35x Übrige Freizeit [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für übrige Freizeit
+303,39x Kirche [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kirche
+304,40x Spitäler [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Spitäler
+305,41x Kranken- und Pflegeheime [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kranken- und Pflegeheime
+306,42x/43x [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+307,44x Ambulante Krankenpflege [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für ambulante Krankenpflege
+308,45x Krankheitsbekämpfung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Krankheitsbekämpfung
+309,46x Schulgesundheitsdienst [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulgesundheitsdienst
+310,47x Lebensmittelkontrolle [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Lebensmittelkontrolle
+311,49x Gesundheitswesen Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gesundheitswesen Übriges
+312,50x Sozialversicherungen Allgemeines [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sozialversicherungen Allgemeines
+313,52x Krankenversicherungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Krankenversicherungen
+314,53x Zusatzleistungen AHV/IV [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Zusatzleistungen AHV/IV
+315,54x Jugend [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Jugend
+316,55x Invalidität [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Invalidität
+317,56x Sozialer Wohnungsbau [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für sozialer Wohnungsbau
+318,57x Altersheime [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Altersheime
+319,580 Gesetzliche wirtschaftliche Hilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für gesetzliche wirtschaftliche Hilfe
+320,581 Freiwillige wirtschaftliche Hilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für freiwillige wirtschaftliche Hilfe
+321,582 Arbeitslosenhilfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Arbeitslosenunterstützung
+322,583-585 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+323,586 Beschäftigungsprogramm für Arbeitslose [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Arbeitsprogramme für Arbeitslose
+324,587 Betreuung Suchtabhängiger [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Betreuung Suchtabhängiger
+325,588 Asylbewerberbetreuung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Asylbewerberbetreuung
+326,589 Soziale Wohlfahrt Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für soziale Wohlfahrt Übriges
+327,59x Hilfsaktionen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Hilfsaktionen
+328,61x Staatsstrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Staatsstrassen
+329,62x Gemeindestrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gemeindestrassen
+330,63x Privatstrassen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Privatstrassen
+331,64x Bundesbahnen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Bundesbahnen
+332,65x Regionalverkehr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Regionalverkehr
+333,66x Schifffahrt [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schifffahrt
+334,700 Wasserversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Wasserversorgung
+335,701-709 Wasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Wasser
+336,71x Abwasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Abwasser
+337,72x Abfall [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Abfall
+338,73x Schlachthöfe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schlachthöfe
+339,74x Friedhöfe und Bestattungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Friedhöfe und Bestattungen
+340,75x Gewässerunterhalt und -verbauungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gewässerunterhalt und -verbauungen
+341,77x Naturschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Naturschutz
+342,78x Übriger Umweltschutz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für übriger Umweltschutz
+343,79x Raumplanung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Raumordnung
+344,80x Landwirtschaft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Landwirtschaft
+345,81x Forstwesen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Forstwesen
+346,82x Jagd und Fischerei [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Jagd und Fischerei
+347,"83x Tourismus, kommunale Werbung [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Tourismus, kommunale Werbung"
+348,"84x Beiträge Industrie, Gewerbe, Handel [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Beiträge Industrie Gewerbe, Handel"
+349,860 Energieversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Energieversorgung
+350,861 Elektrizitätswerk - Elektrizitätsnetz [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Elektrizitätswerk - Elektrizitätsnetz
+351,862 Gasversorgung [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gasversorgung
+352,863 Fernwärme [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Fernwärme
+353,864 [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+354,865 Elektrizitätswerk - Stromhandel und Übriges [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Elektrizitätswerk - Stromhandel und Übriges
+402,"866 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Energie, Übriges"
+355,"869 Energie, Übriges [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Energie, Übriges"
+356,87x Sonstige Gemeindebetriebe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für sonstige Gemeindebetriebe
+403,940 Kapitaldienst [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",
+357,942 Grundeigentum Finanzvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Grundeigentum Finanzvermögen
+404,943 Gutsbetriebe [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",
+358,997 Abschluss Zweckverband [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss Zweckverbände
+359,999 Abschluss [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss
+360,10 Finanzvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Finanzvermögens
+361,11 Verwaltungsvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Verwaltungsvermögens
+362,12 Vorschüsse an Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Vorschüsse für Spezialfinanzierungen
+363,13 Bilanzfehlbetrag [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Bilanzfehlbetrags
+364,20 Fremdkapital [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Fremdkapitals
+365,21 Verrechnungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen
+366,22 Verpflichtungen für Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Spezialfinanzierungen
+367,23 Eigenkapital [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Eigenkapials
+368,100 Flüssige Mittel [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der flüssigen Mittel
+369,101 Guthaben [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Guthaben
+370,102 Anlagen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Anlagen
+371,103 Transitorische Aktiven [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der transitorischen Aktiven
+372,114 Sachgüter Verwaltungsvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Sachgüter Verwaltungsvermögen
+373,115 Darlehen und Beteiligungen Verwaltungsvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Darlehen und Beteiligungen Verwaltungsvermögen
+374,116 Investitionsbeiträge Verwaltungsvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Investitionsbeiträge Verwaltungsvermögen
+375,117 Übrige aktivierte Ausgaben Verwaltungsvermögen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der übrigen aktivierten Ausgaben Verwaltungsvermögen
+376,128 Vorschüsse für Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Vorschüsse für Spezialfinanzierung
+377,139 Bilanzfehlbetrag [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Bilanzfehlbetrags
+378,200 Laufende Verpflichtungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der laufenden Verpflichtungen
+379,201 Kurzfristige Schulden [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der kurzfristigen Schulden
+380,202 Langfristige Schulden [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der langfristigen Schulden
+381,203 Verpflichtungen für Sonderrechnungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Sonderrechnungen
+29,Grundstückgewinnsteuer [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Grundstückgewinnsteuer
+1029,Grundstückgewinnsteuer [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Grundstückgewinnsteuer
+382,204 Rückstellungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Rückstellungen
+383,205 Transitorische Passiven [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der transitorischen Passiven
+384,210 Steuern Rechnungsjahr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern Rechungsjahr
+385,211 Steuern Vorjahr [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern Vorjahr
+386,212 Steuern früherer Jahre [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern früherer Jahre
+387,213 Verzugszinsen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Verzugszinsen
+388,214 Quellensteuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Quellensteuern
+389,215 Nach- und Strafsteuern [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Nach- und Strafsteuern
+390,"216 Steuerausscheidungen, pauschale Steueranrechn. [Fr.]",Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Steuerausscheidungen und pauschalen Steueranrechnungen
+391,217 Verschiedene Steuern und Abgaben [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen verschiedener Steuern und Abgaben
+392,218 Übrige Verrechnungskonten [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der übrigen Verrechnungskonten
+393,219 Abschluss Verrechnungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Abschlusses Verrechnungen
+394,228 Verpflichtungen für Spezialfinanzierungen [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Spezialfinanzierungen
+395,239 Eigenkapital [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Eigenkapials
+1100,30 Personalaufwand [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Personalaufwand
+1101,31 Sachaufwand [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Sachaufwand
+1102,32 Passivzinsen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Passivzinsen
+1103,33 Abschreibungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Abschreibungen
+1104,34 Anteile und Beiträge ohne Zweckbindung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Anteile und Beiträge ohne Zweckbindung
+1105,35 Entschädigung an Gemeinwesen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Entschädigungen an Gemeinwesen
+1106,36 Eigene Beiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für eigene Betriebe
+1107,37 Durchlaufende Beiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für durchlaufende Beiträge
+1108,38 Einlagen in Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für Einlagen in Spezialfinanzierungen
+1109,39 Interne Verrechnungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Aufwendungen für interne Verrechnungen
+1111,40 Steuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Steuererträge
+1112,41 Regalien und Konzessionen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Regalien und Konzessionen
+1113,42 Vermögenserträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Vermögenserträge
+1114,43 Entgelte [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Entgelten
+1115,44 Anteile und Beiträge ohne Zweckbindung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Beiträgen ohne Zweckbindung
+1116,45 Rückerstattungen von Gemeinwesen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Rückerstattungen von Gemeinwesen
+1117,46 Beiträge mit Zweckbindung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Beiträgen mit Zweckbindung
+1118,47 Durchlaufende Beiträge [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus durchlaufenden Beiträgen
+1119,48 Entnahmen aus Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus Entnahmen aus Spezialfinanzierungen
+1120,49 Interne Verrechnungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Erträge aus internen Verrechnungen
+1121,91 Ertragsüberschuss (+) / Aufwandüberschuss (-) [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Jahresergebnis Erfolgsrechnung. Ertragsüberschuss (positives Vorzeichen) oder Aufwandüberschuss (negatives Vorzeichen)
+1122,0 Nettoaufwendungen Behörden und allg. Verwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Behörden und allgemeine Verwaltung
+1124,2 Nettoaufwendungen Bildung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bildung
+1125,3 Nettoaufwendungen Kultur und Freizeit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kultur und Freizeit
+1126,4 Nettoaufwendungen Gesundheit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gesundheit
+1127,5 Nettoaufwendungen Soziale Wohlfahrt [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für soziale Wohlfahrt
+1128,6 Nettoaufwendungen Verkehr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Verkehr
+1129,7 Nettoaufwendungen Umwelt und Raumordnung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Umwelt und Raumordnung
+1130,8 Nettoaufwendungen Volkswirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Volkswirtschaft
+1131,9 Nettoaufwendungen Finanzen und Steuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Finanzen und Steuern
+1132,011 Legislative [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Legislative
+1133,012 Exekutive [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Exekutive
+1134,02x Gemeindeverwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gemeindeverwaltung
+1135,03x Leistungen für Pensionierte [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Leistungen für Pensionierte
+1136,09x Verwaltungsliegenschaften [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Verwaltungsliegenschaften
+1137,10x Rechtspflege [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtspflege
+1138,11x Polizei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Polizei
+1139,12x Rechtssprechung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtssprechung
+1140,13x [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1141,14x Feuerwehr und Feuerpolizei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Feuerwehr und Feuerpolizei
+1142,15x Militär [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Militär
+1143,16x Zivilschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Zivilschutz
+1144,200-209 Kindergarten / Grundstufe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kindergarten / Grundstufe
+1145,210 Primarschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Primarschule
+1146,211 Oberstufenschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Oberstufenschule
+1147,212 Tagesschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Tagesschule
+1148,213 Tagesstrukturen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Tagesstrukturen
+1149,214 Musikschule [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Musikschule
+1150,215 Handarbeit und Hauswirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Handarbeit
+1151,216 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1152,217 Schulliegenschaften [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulliegenschaften
+1153,218 Volksschule Sonstiges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Volksschule Sonstiges
+1154,219 Schulverwaltung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulverwaltung
+1155,220-229 Sonderschulung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sonderschulung
+1156,230-239 Berufsbildung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Berufsbildung
+1157,240-249 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1158,250-259 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1159,260-269 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1123,1 Nettoaufwendungen Rechtschutz und Sicherheit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Rechtschutz und Sicherheit
+1160,270-279 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1161,280-289 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1163,29x Bildungswesen Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Bildungswesen Übriges
+1164,30x Kulturförderung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kulturförderung
+1165,"31x Denkmalpflege, Heimatschutz [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Denkmalpflege, Heimatschutz"
+1166,32x Massenmedien [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Massenmedien
+1167,"33x Parkanlagen, Wanderwege [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoaufwendungen für Parkanlagen, Wanderwege"
+1168,34x Sport [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sport
+1169,35x Übrige Freizeit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für übrige Freizeit
+1170,39x Kirche [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kirche
+1171,40x Spitäler [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Spitäler
+1172,41x Kranken- und Pflegeheime [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Kranken- und Pflegeheime
+1173,42x/3x [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1174,44x Ambulante Krankenpflege [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für ambulante Krankenpflege
+1175,45x Krankheitsbekämpfung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Krankheitsbekämpfung
+1176,46x Schulgesundheitsdienst [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Schulgesundheitsdienst
+1177,47x Lebensmittelkontrolle [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Lebensmittelkontrolle
+1178,49x Gesundheitswesen Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Gesundheitswesen Übriges
+1179,50x Sozialversicherungen Allgemeines [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Sozialversicherungen Allgemeines
+1180,52x Krankenversicherungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Krankenversicherungen
+1181,53x Zusatzleistungen AHV/IV [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Zusatzleistungen AHV/IV
+1182,54x Jugend [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Jugend
+1183,55x Invalidität [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Invalidität
+1184,56x Sozialer Wohnungsbau [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für sozialer Wohnungsbau
+1185,57x Altersheime [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Altersheime
+1186,580 Gesetzliche wirtschaftliche Hilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für gesetzliche wirtschaftliche Hilfe
+1187,581 Freiwillige wirtschaftliche Hilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für freiwillige wirtschaftliche Hilfe
+1188,582 Arbeitslosenhilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Arbeitslosenunterstützung
+1189,583-585 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1190,586 Beschäftigungsprogramm für Arbeitslose [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Arbeitsprogramme für Arbeitslose
+1191,587 Betreuung Suchtabhängiger [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Betreuung Suchtabhängiger
+1192,588 Asylbewerberbetreuung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Asylbewerberbetreuung
+1193,589 Soziale Wohlfahrt Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für soziale Wohlfahrt Übriges
+1194,59x Hilfsaktionen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Hilfsaktionen
+1195,61x Staatsstrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für Staatsstrassen
+1035,Finanzausgleichsbeiträge Zwischentotal [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Gesamte Beiträge des Finanzausgleichs ohne Beiträge des Übergangsausgleichs und ohne Beiträge des individuellen Sonderlastenausgleichs
+1297,30x Kulturförderung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kulturförderung
+1298,"31x Denkmalpflege, Heimatschutz [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Denkmalpflege, Heimatschutz"
+1299,32x Massenmedien [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Massenmedien
+1300,"33x Parkanlagen, Wanderwege [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Parkanlagen, Wanderwege"
+1301,34x Sport [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sport
+1302,35x Übrige Freizeit [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für übrige Freizeit
+1303,39x Kirche [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kirche
+1304,40x Spitäler [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Spitäler
+1305,41x Kranken- und Pflegeheime [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Kranken- und Pflegeheime
+1306,42x/3x [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1307,44x Ambulante Krankenpflege [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für ambulante Krankenpflege
+1308,45x Krankheitsbekämpfung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Krankheitsbekämpfung
+1309,46x Schulgesundheitsdienst [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schulgesundheitsdienst
+1310,47x Lebensmittelkontrolle [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Lebensmittelkontrolle
+1311,49x Gesundheitswesen Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gesundheitswesen Übriges
+1312,50x Sozialversicherungen Allgemeines [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Sozialversicherungen Allgemeines
+1313,52x Krankenversicherungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Krankenversicherungen
+1314,53x Zusatzleistungen AHV/IV [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Zusatzleistungen AHV/IV
+1315,54x Jugend [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Jugend
+1316,55x Invalidität [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Invalidität
+1317,56x Sozialer Wohnungsbau [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für sozialer Wohnungsbau
+1318,57x Altersheime [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Altersheime
+1319,580 Gesetzliche wirtschaftliche Hilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für gesetzliche wirtschaftliche Hilfe
+1320,581 Freiwillige wirtschaftliche Hilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für freiwillige wirtschaftliche Hilfe
+1321,582 Arbeitslosenhilfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Arbeitslosenunterstützung
+1322,583-585 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1323,586 Beschäftigungsprogramm für Arbeitslose [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Arbeitsprogramme für Arbeitslose
+1324,587 Betreuung Suchtabhängiger [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Betreuung Suchtabhängiger
+1325,588 Asylbewerberbetreuung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Asylbewerberbetreuung
+1326,589 Soziale Wohlfahrt Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für soziale Wohlfahrt Übriges
+1327,59x Hilfsaktionen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Hilfsaktionen
+1328,61x Staatsstrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Staatsstrassen
+1329,62x Gemeindestrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gemeindestrassen
+1330,63x Privatstrassen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Privatstrassen
+1331,64x Bundesbahnen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Bundesbahnen
+1332,65x Regionalverkehr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Regionalverkehr
+1333,66x Schifffahrt [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schifffahrt
+1334,700 Wasserversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Wasserversorgung
+1335,701-709 Wasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Wasser
+1336,71x Abwasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Abwasser
+1337,72x Abfall [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Abfall
+1338,73x Schlachthöfe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Schlachthöfe
+1339,74x Friedhöfe und Bestattungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Friedhöfe und Bestattungen
+1340,75x Gewässerunterhalt und -verbauungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gewässerunterhalt und -verbauungen
+1341,77x Naturschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Naturschutz
+1342,78x Übriger Umweltschutz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für übriger Umweltschutz
+1343,79x Raumplanung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Raumordnung
+1344,80x Landwirtschaft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Landwirtschaft
+1345,81x Forstwesen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Forstwesen
+1346,82x Jagd und Fischerei [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Jagd und Fischerei
+1347,"83x Tourismus, kommunale Werbung [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Tourismus, kommunale Werbung"
+1348,"84x Beiträge Industrie, Gewerbe, Handel [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Beiträge Industrie Gewerbe, Handel"
+1349,860 Energieversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Energieversorgung
+1350,861 Elektrizitätswerk - Elektrizitätsnetz [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Elektrizitätswerk - Elektrizitätsnetz
+1351,862 Gasversorgung [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Gasversorgung
+1352,863 Fernwärme [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Fernwärme
+1353,864 [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1354,865 Elektrizitätswerk - Stromhandel und Übriges [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für Elektrizitätswerk - Stromhandel und Übriges
+1402,"866 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Energie, Übriges"
+1355,"869 Energie, Übriges [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Nettoinvestitionen für Energie, Übriges"
+1356,87x Sonstige Gemeindebetriebe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für sonstige Gemeindebetriebe
+1403,940 Kapitaldienst [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwand für Kapitaldienst
+1357,942 Grundeigentum Finanzvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen in Grundeigentum Finanzvermögen
+1404,943 Gutsbetriebe [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwand für Gutsbetriebe
+1358,997 Abschluss Zweckverband [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss Zweckverbände
+1359,999 Abschluss [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Abschluss
+1360,10 Finanzvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Finanzvermögens
+1361,11 Verwaltungsvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Verwaltungsvermögens
+1362,12 Vorschüsse an Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Vorschüsse für Spezialfinanzierungen
+1363,13 Bilanzfehlbetrag [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Bilanzfehlbetrags
+1364,20 Fremdkapital [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Fremdkapitals
+16,Zinsbelastungsanteil [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Verschuldung. Der Zinsbelastungsanteil zeigt die Auswirkung der Verschuldung auf die Erfolgsrechnung unter Einbezug des aktuellen Zinsumfelds. Werte für den Zinsbelastungsanteil unter 2% gelten als tief, Werte zwischen 2% und 5% als mittel, Werte zwischen 5% und 8% als hoch und Werte über 8% als sehr hoch.
+
+"
+1365,21 Verrechnungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen
+1366,22 Verpflichtungen für Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Spezialfinanzierungen
+1367,23 Eigenkapital [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Eigenkapials
+1368,100 Flüssige Mittel [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der flüssigen Mittel
+1369,101 Guthaben [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Guthaben
+1370,102 Anlagen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Anlagen
+1371,103 Transitorische Aktiven [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der transitorischen Aktiven
+1372,114 Sachgüter Verwaltungsvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Sachgüter Verwaltungsvermögen
+1373,115 Darlehen und Beteiligungen VV [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Darlehen und Beteiligungen Verwaltungsvermögen
+1374,116 Investitionsbeiträge Verwaltungsvermögen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Investitionsbeiträge Verwaltungsvermögen
+1375,117 Übrige aktivierte Ausgaben VV [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der übrigen aktivierten Ausgaben Verwaltungsvermögen
+1376,128 Vorschüsse für Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Vorschüsse für Spezialfinanzierung
+1377,139 Bilanzfehlbetrag [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Bilanzfehlbetrags
+1378,200 Laufende Verpflichtungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der laufenden Verpflichtungen
+1379,201 Kurzfristige Schulden [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der kurzfristigen Schulden
+1380,202 Langfristige Schulden [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der langfristigen Schulden
+1381,203 Verpflichtungen für Sonderrechnungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Sonderrechnungen
+1382,204 Rückstellungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Rückstellungen
+1383,205 Transitorische Passiven [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der transitorischen Passiven
+1384,210 Steuern Rechnungsjahr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern Rechungsjahr
+1385,211 Steuern Vorjahr [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern Vorjahr
+1386,212 Steuern früherer Jahre [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Steuern früherer Jahre
+1387,213 Verzugszinsen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Verzugszinsen
+1388,214 Quellensteuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Quellensteuern
+1389,215 Nach- und Strafsteuern [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen von Nach- und Strafsteuern
+1390,"216 Steueraussch., pauschale Steueranrechn. [Fr./Einw.]",Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Steuerausscheidungen und pauschalen Steueranrechnungen
+1391,217 Verschiedene Steuern und Abgaben [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verrechnungen verschiedener Steuern und Abgaben
+1392,218 Übrige Verrechnungskonten [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der übrigen Verrechnungskonten
+1393,219 Abschluss Verrechnungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Abschlusses Verrechnungen
+1394,228 Verpflichtungen für Spezialfinanzierungen [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert der Verpflichtungen für Spezialfinanzierungen
+1395,239 Eigenkapital [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Bilanzwert des Eigenkapials
+17,Bruttoverschuldungsanteil [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Schuldenbestand. Der Bruttoverschuldungsanteil zeigt, wie viel kurz-, mittel- und langfristige Schulden, gemessen an den laufenden Erträgen, vorhanden sind. Werte für den Bruttoverschuldungsanteil von unter 50% gelten als sehr gut, Werte zwischen 50% und 100% als gut, Werte zwischen 100% und 150% als mittel, Werte zwischen 150% und 200% als schlecht und Wert über 200% als kritisch."
+18,Kapitaldienstanteil [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für die Verschuldung. Der Kapitaldienstanteil ist ein Mass für die Belastung der Erfoglsrechnung durch Kapitalkosten unter Einbezug des aktuellen Zinsumfelds. Werte für den Kapitaldienstanteil unter 5% gelten als tief, Werte zwischen 5% und 15% als tragbar Werte zwischen 15% und 25% als hoch bis sehr hoch und Werte über 25% als kaum noch tragbar."
+19,Nettoschulden [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Verschuldung. Die Nettoschuld zeigt den Betrag an Schulden, der nicht durch Finanzvermögen gedeckt ist."
+20,Eigenkapitalquotient [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Eigenfinanzierung. Das Eigenkapital in Relation zu den Aufwendungen zeigt, wie viel Kapital als Vorfinanzierung oder zur Deckung zukünftiger Aufwandüberschüsse zur Verfügung steht. Eine Eingenkapitalquote von 0% bis 15% kann als gering, eine zwischen 15% und 30% als ausreichend und eine über 30% als gross bezeichnet werden. Ein negativer Wert zeigt einen Bilanzfehlbetrag."
+21,Selbstfinanzierungsgrad [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Selbstfinanzierung (Durchschnitt über 7 Jahre). Der Selbstfinanzierungsgrad drückt aus, welcher Teil der Investitionen durch selbst erwirtschaftete Mittel bezahlt werden können. Können die Investitionen nicht selbst bezahlt werden, nimmt die Verschuldung zu. Werte für den Selbstfinanzierungsgrad von unter 70% gelten als schwach, Werte zwischen 70% und 100% als vertretbar bis gut und Werte über 100% als ideal."
+22,Selbstfinanzierungsanteil [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Finanzkraft (Durchschnitt über 7 Jahre). Der Selbstfinanzierungsanteil entspricht den selbst erwirtschafteten Mittel gemessen an den laufenden Erträgen. Werte für den Selbstfinanzierungsanteil von unter 10% gelten als schwach, Werte zwischen 10% und 20% als mittel und Werte über 20% als gut."
+23,Investitionsanteil [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Investitionstätigkeit (Durchschnitt über 7 Jahre). Der Investitionsanteil bringt zum Ausdruck, welcher Anteil der gesamten Ausgaben für Investitionen eingesetzt wurde. Werte für den Investitionsanteil von unter 10% gelten als schwach, Werte zwischen 10% und 20% als mittel, Werte zwischen 20% und 30% als stark und Werte über 30% als sehr stark."
+24,Kumuliertes mittleres Jahresergebnis [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für mittelfristigen Haushaltsausgleich (Durchschnitt über 7 Jahre). Das kumulierte mittlere Jahresergebnis zeigt den Mittelwert der Jahresergebnisse. Daran wird ersichtlich, ob ein Haushalt über die entsprechende Frist ausgeglichen geführt wurde oder wie gross die mittleren jährlichen Ertrags- und Aufwandüberschüsse waren."
+25,Jahresergebnisquote [%],Prozent,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für mittelfristigen Haushaltsausgleich (über 7 Jahre). Das durchschnittliche Jahresergebnis in Relation zur durchschnittlichen Steuerkraft zeigt das Ergebnis in Steuerfussprozenten. Werte für die Jahresergebnisquote von weniger als -6% gelten als sehr schwach, Werte zwischen -6% und -3% als schwach, Werte zwischen -3% und 3% als ausgeglichen, Werte zwischen 3% und 6% als gut und Werte über 6% als sehr gut."
+26,Steuerkraft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für Steuerertragspotential. Die Steuerkraft einer Gemeinde ist der auf einen Steuerfuss von 100% umgerechnete Ertrag der allgemeinen Gemeindesteuern einschliesslich der Nachsteuern.
+27,Berichtigte Steuerkraft [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für Ressourcenpotential nach Finanzausgleich. Die berichtigte Steuerkraft ist die Steuerkraft vermehrt um den auf einen Steuerfuss von 100% umgerechneten Ressourcenzuschuss oder vermindert um die Ressourcenabschöpfung.
+28,Steuerertrag [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für die Ertragskraft aus Steuern.
+30,Vorschüsse an Eigenwirtschaftsbetriebe,,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Indikator für Vorschüsse an Eigenwirtschaftsbetriebe (ja/nein). Vorschüsse an Eigenwirtschaftsbetriebe zeigen vorhandene Guthaben des allgemeinen Gemeindehaushalts gegenüber den Haushalten der Eigenwirtschaftsbetriebe an. Diese Vorschüsse stammen aus ungedeckten Fehlbeträgen eines Eigenwirtschaftsbetriebs, welche nicht abgetragen wurden. "
+31,Gebührenerträge Wasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Wasserversorgung. Das Mass zeigt die Höhe der Ertäge aus Gebühren für die Wasserversorgung.
+32,Gebührenerträge Abwasser [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Abwasserentsorgung. Das Mass zeigt die Höhe der Einnahmen aus Gebühren für die Abwasserentsorgung.
+33,Gebührenerträge Abfall [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Abfallentsorgung. Das Mass zeigt die Höhe der Einnahmen aus Gebühren für die Abfallentsorgung.
+34,Finanzausgleichsbeiträge Total [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Gesamte Beiträge des Finanzausgleichs
+36,Ressourcenausgleich [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich","Beiträge des Ressourcenausgleichs. Ressourcenzuschüsse (positives Vorzeichen), Ressourcenabschöpfung (negatives Vorzeichen)"
+37,Demografischer Sonderlastenausgleich [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des demografischen Sonderlastenausgleichs
+38,Geografisch-topografischer Sonderlastenausgleich [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des geografisch-topografischen Sonderlastenausgleichs
+40,Individueller Sonderlastenausgleich [Fr.],Franken,"Gemeindeamt Kanton Zürich, Abteilung Gemeindefinanzen",Beiträge des individuellen Sonderlastenausgleichs
+41,Übergangsausgleich [Fr.],Franken,"Gemeindeamt Kanton Zürich, Abteilung Gemeindefinanzen",Beiträge des Übergangsausgleichs
+35,Finanzausgleichsbeiträge Zwischentotal [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Gesamte Beiträge des Finanzausgleichs ohne Beiträge des Übergangsausgleichs und ohne Beiträge des individuellen Sonderlastenausgleichs
+2,Gemeindeart,,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Art der öffentlich-rechtlichen Körperschaft. Die Gemeindeart zeigt, ob es sich bei der Körperschaft um eine politische Gemeinde, eine Schulgemeinde, einen Zweckverband oder eine Anstalt handelt."
+4,Legislative,,"Gemeindeamt Kanton Zürich, Abteilung Gemeinderecht","Art des Legislativorgans. Der Indikator Legislative zeigt an, ob die Gemeinde eine Gemeindeversammlung abhält oder ein Parlament betreibt."
+5,Einwohnerinnen und Einwohner [Pers.],Personen,"Statistisches Amt des Kantons Zürich, Einwohnererhebung",Zahl der Einwohnerinnen und Einwohner. Der Wert zeigt die Zahl der Personen am 31. Dezember mit zivilrechtlichem Wohnsitz in der Gemeinde.
+6,Einwohnerinnen und Einwohner unter 20 [Pers.],Personen,"Statistisches Amt des Kantons Zürich, Einwohnererhebung",Zahl der Einwohnerinnen und Einwohner unter 20 Jahren. Der Wert für die Einwohnerinnen und Einwohner unter 20 Jahren zeigt die Zahl der Personen unter 20 Jahren mit zivilrechtlichem Wohnsitz in der Gemeinde am 31. Dezember.
+7,Schülerinnen und Schüler [Pers.],Personen,Bildungsstatistik Kanton Zürich (BISTA),"Zahl der Schülerinnen und Schüler. Der Wert der Schüler zeigt die Zahl der Schülerinnen und Schüler der Volksschule (ohne Gymnasium) des Schuljahres, das im Kalenderjahr beginnt."
+10,Bezirk,,"Gemeindeamt Kanton Zürich, Abteilung Gemeinderecht",Bezirkszugehörigkeit. Die Bezirkszugehörigkeit zeigt welchem Bezirk des Kantons Zürich die Gemeinde angehört.
+11,Steuerfuss (beschlossen) [%],Prozent,"Statistisches Amt des Kantons Zürich, Steuerfusserhebung",Steuerfuss. Der Steuerfuss zeigt den von der Gemeinde beschlossenen Steuerfuss.
+12,Gesamtsteuerfuss (beschlossen) [%],Prozent,"Statistisches Amt des Kantons Zürich, Steuerfusserhebung","Gesamtsteuerfuss. Der Gesamtsteuerfuss zeigt die Summe der beschlossenen Steuerfüsse von poltischer Gemeinde und Schulgemeinden. Bestehen innerhalb der gleichen Gemeinden Gruppen von Steuerzahlenden, für die verschiedene Steuerfüsse gelten, ist das mit der absoluten Steuerkraft gewogene Mittel massgebend."
+13,Schwellenwert 1 Finanzreferendum [Fr.],Franken,"Gemeindeamt Kanton Zürich, Abteilung Gemeinderecht","Schwellenwert obligatorisches Referendum einmalige Ausgaben. Der Schwellenwert gibt die Höhe von einmaligen Ausgaben an, ab der sie obligatorisch an der Urne beschlossen werden müssen. Die Werte werden bei Verordnungs- oder Statutenänderungen umgehend aktualisiert. Das Jahr entspricht nicht zwingend dem Jahr des Inkrafttretens."
+14,Schwellenwert 2 Finanzreferendum [Fr.],Franken,"Gemeindeamt Kanton Zürich, Abteilung Gemeinderecht","Obligatorisches Referendum wiederkehrende Ausgabe. Der Schwellenwert gibt die Höhe von jährlich wiederkehrenden Ausgaben an, ab der sie obligatorisch an der Urne beschlossen werden müssen. Die Werte werden bei Verordnungs- oder Statutenänderungen umgehend aktualisiert. Das Jahr entspricht nicht zwingend dem Jahr des Inkrafttretens."
+39,Zentrumslastenausgleich [Fr.],Franken,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des Zentrumslastenausgleichs
+1019,Nettoschulden [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Mass für Verschuldung. Die Nettoschuld pro Person zeigt den Betrag, den jede Person einmalig zur Tilgung aller Schulden durchschnittlich aufbringen müsste. Werte für die Nettoschuld von unter Fr. 1000 gelten als tief, Werte zwischen Fr. 1000 und 3000 als mittel, Werte zwischen 3000 und 5000 als hoch und Werte über Fr. 5000 als sehr hoch."
+1026,Steuerkraft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für Steuerertragspotential. Die Steuerkraft einer Gemeinden ist der auf einen Steuerfuss von 100% umgerechnete Ertrag der allgemeinen Gemeindesteuern einschliesslich der Nachsteuern.
+1027,Berichtigte Steuerkraft [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für Ressourcenpotential nach Finanzausgleich. Die berichtigte Steuerkraft ist die Steuerkraft vermehrt um den auf einen Steuerfuss von 100% umgerechneten Ressourcenzuschuss oder vermindert um die Ressourcenabschöpfung.
+1028,Steuerertrag [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Steuerertragserhebung",Mass für die Ertragskraft aus Steuern.
+1031,Gebührenerträge Wasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Wasserversorgung. Das Mass zeigt die Höhe der Ertäge aus Gebühren für die Wasserversorgung.
+1032,Gebührenerträge Abwasser [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Abwasserentsorgung. Das Mass zeigt die Höhe der Einnahmen aus Gebühren für die Abwasserentsorgung.
+1033,Gebührenerträge Abfall [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Mass für die Ertragskraft der Abfallentsorgung. Das Mass zeigt die Höhe der Einnahmen aus Gebühren für die Abfallentsorgung.
+1034,Finanzausgleichsbeiträge Total [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Gesamte Beiträge des Finanzausgleichs
+1036,Ressourcenausgleich [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich","Beiträge des Ressourcenausgleichs. Ressourcenzuschüsse (positives Vorzeichen), Ressourcenabschöpfung (negatives Vorzeichen)"
+1037,Demografischer Sonderlastenausgleich [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des demografischen Sonderlastenausgleichs
+1038,Geografisch-topografischer Sonderlastenausgleich [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des geografisch-topografischen Sonderlastenausgleichs
+1040,Individueller Sonderlastenausgleich [Fr./Einw.],Franken pro Einwohner,"Gemeindeamt Kanton Zürich, Abteilung Gemeindefinanzen",Beiträge des individuellen Sonderlastenausgleichs
+1041,Übergangsausgleich [Fr./Einw.],Franken pro Einwohner,"Gemeindeamt Kanton Zürich, Abteilung Gemeindefinanzen",Beiträge des Übergangsausgleichs
+1039,Zentrumslastenausgleich [Fr./Einw.],Franken pro Einwohner,"Statistisches Amt des Kantons Zürich, Berechnung Finanzausgleich",Beiträge des Zentrumslastenausgleichs
+1,Einheit,,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","GEFIS-Einheit, eindeutiger Code (Primärschlüssel) der öffentlich-rechtlichen Körperschaft"
+3,BFS-Nr. / SGEM,,"Bundesamt für Statistik BFS, Bildungsstatistik Kanton Zürich (BISTA)",Schulgemeinde Code (SGEM) gemäss BISTA bei Schulgemeinden oder Amtliche Gemeindenummer (BFS-Nr.) bei Politischen Gemeinden gemäss amtlichem Gemeindeverzeichnis des Bundesamtes für Statistik BFS
+405,51x [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+406,67x-68x [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+407,67x [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+408,868 [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+409,900 [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+410,995 [Fr.],in Franken,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1405,51x [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1406,67x-68x [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoaufwendungen für *nicht definiert*
+1407,67x [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1408,868 [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1409,900 [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+1410,995 [Fr./Pers.],in Franken pro Person,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)",Nettoinvestitionen für *nicht definiert*
+42,Rechnungsmodell HRM,,"Statistisches Amt des Kantons Zürich, Gemeindefinanzstatistik (GEFIS)","Harmonisiertes Rechnungsmodell (HRM1 oder HRM2), gemäss welchem die Jahresrechnung erstellt und erhoben worden ist. Im Gemeindefinanzporträt sind alle HRM2 Daten nach HRM1 umgeschlüsselt ausgewiesen."
